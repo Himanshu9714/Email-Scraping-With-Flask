@@ -829,3 +829,783 @@
 2022-01-26 12:40:42,609 INFO werkzeug MainThread :  * Restarting with stat
 2022-01-26 12:41:20,072 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/web_scraping.py', reloading
 2022-01-26 12:41:20,198 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 14:42:10,944 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-26 14:42:23,599 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:23] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:23,637 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:23] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:24,022 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:24] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:24,049 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:24] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:24,190 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:24] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:24,216 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:24] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:32,287 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:32,318 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:32,446 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:32,469 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:32,582 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:32,605 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:32,726 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:32,745 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:32,878 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:32,899 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:32] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:33,022 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:33] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:33,049 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:33] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:33,199 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:33] "GET / HTTP/1.1" 200 -
+2022-01-26 14:42:33,227 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:42:33] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 14:42:41,175 INFO main Thread-21 (process_request_thread) : Getting file from request object if exist
+2022-01-26 14:42:41,177 INFO main Thread-21 (process_request_thread) : Checking File Extension
+2022-01-26 14:42:41,528 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:45,085 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 14:42:45,200 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:46,237 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 14:42:46,694 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:46,800 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 14:42:46,966 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:51,144 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/mobile-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:42:51,286 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:51,418 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/android-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:42:51,571 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:53,925 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/ios-appdevelopment-company/ HTTP/1.1" 200 None
+2022-01-26 14:42:54,083 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:42:58,083 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/react-native-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:42:58,450 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:03,349 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/flutter-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:03,789 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:07,761 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/cross-platform-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:07,905 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:08,862 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/web-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:09,218 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:12,442 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/angularjs-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:12,602 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:17,683 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/nodejs-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:18,048 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:22,143 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/django-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:22,508 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:27,404 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/reactjs-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:27,550 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:30,660 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/python-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:30,803 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:31,749 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/ruby-on-rails-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:32,110 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:34,682 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/digital-marketing-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:34,818 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:38,004 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/seo-services-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:38,260 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:41,455 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/social-media-marketing-services/ HTTP/1.1" 200 None
+2022-01-26 14:43:41,600 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:46,521 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/ppc-services-company/ HTTP/1.1" 200 None
+2022-01-26 14:43:46,889 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:49,913 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/app-store-optimization-services/ HTTP/1.1" 200 None
+2022-01-26 14:43:50,046 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:50,145 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /food-delivery-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:43:50,291 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:43:55,166 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /healthcare-software-development/ HTTP/1.1" 200 None
+2022-01-26 14:43:55,315 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:00,370 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /taxi-booking-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:44:00,521 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:02,979 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /education-management-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:44:03,128 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:03,232 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /event-management-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:44:03,397 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:07,296 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /gym-exercise-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:44:07,657 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:13,044 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /dating-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:44:13,527 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:15,763 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/testing-qa-services/ HTTP/1.1" 200 None
+2022-01-26 14:44:15,916 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:19,072 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/ui-ux-desgin-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:44:19,428 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:21,798 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /sports-fantacy-app-solution/ HTTP/1.1" 200 None
+2022-01-26 14:44:21,935 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:23,625 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /media-entertainment-app HTTP/1.1" 301 None
+2022-01-26 14:44:26,864 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /media-entertainment-app/ HTTP/1.1" 200 None
+2022-01-26 14:44:27,225 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:31,133 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /doctor-appointment-app/ HTTP/1.1" 200 None
+2022-01-26 14:44:31,523 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:35,314 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /grocery-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:44:35,460 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:38,494 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /portfolio/ HTTP/1.1" 200 None
+2022-01-26 14:44:38,631 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:44,613 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /about-us/ HTTP/1.1" 200 None
+2022-01-26 14:44:44,983 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:45,496 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /business-development/ HTTP/1.1" 200 None
+2022-01-26 14:44:45,622 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:50,504 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /career/ HTTP/1.1" 200 None
+2022-01-26 14:44:51,074 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:54,187 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /blog/ HTTP/1.1" 200 None
+2022-01-26 14:44:54,328 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:44:57,573 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /contact-us/ HTTP/1.1" 200 None
+2022-01-26 14:44:57,940 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:00,142 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /service/jquery-development-company/ HTTP/1.1" 200 None
+2022-01-26 14:45:00,309 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:00,455 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /media-entertainment-app/ HTTP/1.1" 200 None
+2022-01-26 14:45:00,599 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:00,804 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /life-at-tagline/ HTTP/1.1" 200 None
+2022-01-26 14:45:00,941 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:06,225 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /portfolio_list/care-clinic-application-development/ HTTP/1.1" 200 None
+2022-01-26 14:45:06,375 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:12,226 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /portfolio_list/hashtag-investing-app-investment-app-developement/ HTTP/1.1" 200 None
+2022-01-26 14:45:12,577 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:18,488 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /portfolio_list/yoshoopers-mobile-application/ HTTP/1.1" 200 None
+2022-01-26 14:45:18,879 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:20,039 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /?p=7886 HTTP/1.1" 301 None
+2022-01-26 14:45:23,527 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /free-paid-best-budgeting-apps/ HTTP/1.1" 200 None
+2022-01-26 14:45:23,687 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:25,071 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/10-Most-Reliable-Free-Paid-Best-Budgeting-Apps.png HTTP/1.1" 200 285788
+2022-01-26 14:45:25,511 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 57
+2022-01-26 14:45:25,511 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:45:25,511 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 57
+2022-01-26 14:45:25,511 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:45:25,512 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:45:25,512 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:45:25,512 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:45:25,698 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.045725879359173154, below negative shortcut threshhold 0.05
+2022-01-26 14:45:25,886 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.03846214561625619, below negative shortcut threshhold 0.05
+2022-01-26 14:45:26,071 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.0419417690278351, below negative shortcut threshhold 0.05
+2022-01-26 14:45:26,256 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.04861754519128765, below negative shortcut threshhold 0.05
+2022-01-26 14:45:26,440 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.04075290883328533, below negative shortcut threshhold 0.05
+2022-01-26 14:45:26,625 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04196880337238277, below negative shortcut threshhold 0.05
+2022-01-26 14:45:27,170 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.03965706465187105, below negative shortcut threshhold 0.05
+2022-01-26 14:45:27,361 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.0430444479686357, below negative shortcut threshhold 0.05
+2022-01-26 14:45:27,545 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.0408419413550386, below negative shortcut threshhold 0.05
+2022-01-26 14:45:27,679 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03968208341246683, below negative shortcut threshhold 0.05
+2022-01-26 14:45:27,963 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.04673790023224527, below negative shortcut threshhold 0.05
+2022-01-26 14:45:28,147 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.046614581234271, below negative shortcut threshhold 0.05
+2022-01-26 14:45:28,271 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08066802904412815
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08219738537364216
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:45:28,272 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:45:28,273 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:28,273 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:28,273 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.045725879359173154
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.03846214561625619
+2022-01-26 14:45:28,273 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.0419417690278351
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.04861754519128765
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.04075290883328533
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04196880337238277
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08066802904412815
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08219738537364216
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.03965706465187105
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.0430444479686357
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.0408419413550386
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03968208341246683
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.04673790023224527
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.046614581234271
+2022-01-26 14:45:28,274 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:45:28,276 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 57
+2022-01-26 14:45:28,276 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:45:28,276 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 57
+2022-01-26 14:45:28,276 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:45:28,276 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:45:28,277 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:45:28,277 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:45:28,460 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.045725879359173154, below negative shortcut threshhold 0.05
+2022-01-26 14:45:28,643 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.03846214561625619, below negative shortcut threshhold 0.05
+2022-01-26 14:45:28,826 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.0419417690278351, below negative shortcut threshhold 0.05
+2022-01-26 14:45:29,015 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.04861754519128765, below negative shortcut threshhold 0.05
+2022-01-26 14:45:29,225 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.04075290883328533, below negative shortcut threshhold 0.05
+2022-01-26 14:45:29,422 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04196880337238277, below negative shortcut threshhold 0.05
+2022-01-26 14:45:30,067 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.03965706465187105, below negative shortcut threshhold 0.05
+2022-01-26 14:45:30,299 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.0430444479686357, below negative shortcut threshhold 0.05
+2022-01-26 14:45:30,493 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.0408419413550386, below negative shortcut threshhold 0.05
+2022-01-26 14:45:30,630 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03968208341246683, below negative shortcut threshhold 0.05
+2022-01-26 14:45:30,949 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.04673790023224527, below negative shortcut threshhold 0.05
+2022-01-26 14:45:31,133 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.046614581234271, below negative shortcut threshhold 0.05
+2022-01-26 14:45:31,259 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08066802904412815
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08219738537364216
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:31,260 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:31,261 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:45:31,261 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.045725879359173154
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.03846214561625619
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.0419417690278351
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.04861754519128765
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.04075290883328533
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04196880337238277
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08066802904412815
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08219738537364216
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.03965706465187105
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.0430444479686357
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.0408419413550386
+2022-01-26 14:45:31,262 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03968208341246683
+2022-01-26 14:45:31,263 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:31,263 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.04673790023224527
+2022-01-26 14:45:31,263 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.046614581234271
+2022-01-26 14:45:31,263 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:45:31,365 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:32,193 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /?p=7163 HTTP/1.1" 301 None
+2022-01-26 14:45:34,519 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /why-you-should-choose-angularjs-for-web-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:45:34,675 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:34,836 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/Why-Should-You-Choose-AngularJS-For-Web-Application-Development.png HTTP/1.1" 200 190318
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 57
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 57
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:45:34,848 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:45:34,973 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.048368060691456945, below negative shortcut threshhold 0.05
+2022-01-26 14:45:35,098 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.037888035779069844, below negative shortcut threshhold 0.05
+2022-01-26 14:45:35,221 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04380228902544431, below negative shortcut threshhold 0.05
+2022-01-26 14:45:35,345 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.049635528576273194, below negative shortcut threshhold 0.05
+2022-01-26 14:45:35,471 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.04275798864870503, below negative shortcut threshhold 0.05
+2022-01-26 14:45:35,597 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04505111127235222, below negative shortcut threshhold 0.05
+2022-01-26 14:45:35,960 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.042591054440206576, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,085 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04626501196280157, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,207 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04269636951636393, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,297 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.038655234893842504, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,486 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.04944256064575425, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,610 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.049319031449887286, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.07936561644174217
+2022-01-26 14:45:36,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08114789666244253
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:36,692 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:45:36,692 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.048368060691456945
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.037888035779069844
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04380228902544431
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.049635528576273194
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.04275798864870503
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04505111127235222
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.07936561644174217
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08114789666244253
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.042591054440206576
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04626501196280157
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04269636951636393
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.038655234893842504
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.04944256064575425
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.049319031449887286
+2022-01-26 14:45:36,693 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:45:36,696 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 57
+2022-01-26 14:45:36,696 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:45:36,697 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 57
+2022-01-26 14:45:36,697 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:45:36,697 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:45:36,697 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:45:36,697 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:45:36,822 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.048368060691456945, below negative shortcut threshhold 0.05
+2022-01-26 14:45:36,945 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.037888035779069844, below negative shortcut threshhold 0.05
+2022-01-26 14:45:37,066 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04380228902544431, below negative shortcut threshhold 0.05
+2022-01-26 14:45:37,188 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.049635528576273194, below negative shortcut threshhold 0.05
+2022-01-26 14:45:37,309 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.04275798864870503, below negative shortcut threshhold 0.05
+2022-01-26 14:45:37,431 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04505111127235222, below negative shortcut threshhold 0.05
+2022-01-26 14:45:37,793 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.042591054440206576, below negative shortcut threshhold 0.05
+2022-01-26 14:45:37,917 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04626501196280157, below negative shortcut threshhold 0.05
+2022-01-26 14:45:38,041 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04269636951636393, below negative shortcut threshhold 0.05
+2022-01-26 14:45:38,131 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.038655234893842504, below negative shortcut threshhold 0.05
+2022-01-26 14:45:38,317 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.04944256064575425, below negative shortcut threshhold 0.05
+2022-01-26 14:45:38,440 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.049319031449887286, below negative shortcut threshhold 0.05
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.07936561644174217
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08114789666244253
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:45:38,521 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:38,522 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:38,522 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.048368060691456945
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.037888035779069844
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04380228902544431
+2022-01-26 14:45:38,522 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.049635528576273194
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.04275798864870503
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04505111127235222
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.07936561644174217
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08114789666244253
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.042591054440206576
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04626501196280157
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04269636951636393
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.038655234893842504
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.04944256064575425
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.049319031449887286
+2022-01-26 14:45:38,523 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:45:38,607 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:40,242 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /?p=6706 HTTP/1.1" 301 None
+2022-01-26 14:45:46,348 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /python-framework-for-mobile-app-development/ HTTP/1.1" 200 None
+2022-01-26 14:45:46,878 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:48,344 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/Best-Python-Framework-For-Mobile-App-Development.png HTTP/1.1" 200 339272
+2022-01-26 14:45:48,852 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP932 Japanese prober hit error at byte 65
+2022-01-26 14:45:48,853 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:45:48,853 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 89
+2022-01-26 14:45:48,853 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:45:48,853 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 58
+2022-01-26 14:45:48,853 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:45:48,853 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:45:49,085 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04749632628148277, below negative shortcut threshhold 0.05
+2022-01-26 14:45:49,324 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.038537917090419024, below negative shortcut threshhold 0.05
+2022-01-26 14:45:49,543 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04377118334005947, below negative shortcut threshhold 0.05
+2022-01-26 14:45:49,761 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.04945507157940326, below negative shortcut threshhold 0.05
+2022-01-26 14:45:49,977 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.04271137757201147, below negative shortcut threshhold 0.05
+2022-01-26 14:45:50,194 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04296639579187303, below negative shortcut threshhold 0.05
+2022-01-26 14:45:50,829 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.041985632191117034, below negative shortcut threshhold 0.05
+2022-01-26 14:45:51,046 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04313187220182489, below negative shortcut threshhold 0.05
+2022-01-26 14:45:51,262 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04293252903074918, below negative shortcut threshhold 0.05
+2022-01-26 14:45:51,420 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03921812680647851, below negative shortcut threshhold 0.05
+2022-01-26 14:45:51,752 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.0492328901647811, below negative shortcut threshhold 0.05
+2022-01-26 14:45:51,967 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.04835628710588783, below negative shortcut threshhold 0.05
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08245402913934567
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08434315719470219
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:52,111 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:52,112 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:45:52,112 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:45:52,112 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:52,112 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:52,112 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP932 Japanese confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04749632628148277
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.038537917090419024
+2022-01-26 14:45:52,112 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04377118334005947
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.04945507157940326
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.04271137757201147
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04296639579187303
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08245402913934567
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08434315719470219
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.041985632191117034
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04313187220182489
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04293252903074918
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03921812680647851
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0492328901647811
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.04835628710588783
+2022-01-26 14:45:52,113 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP932 Japanese prober hit error at byte 65
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 89
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 58
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:45:52,116 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:45:52,331 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04749632628148277, below negative shortcut threshhold 0.05
+2022-01-26 14:45:52,547 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.038537917090419024, below negative shortcut threshhold 0.05
+2022-01-26 14:45:52,763 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04377118334005947, below negative shortcut threshhold 0.05
+2022-01-26 14:45:52,977 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.04945507157940326, below negative shortcut threshhold 0.05
+2022-01-26 14:45:53,191 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.04271137757201147, below negative shortcut threshhold 0.05
+2022-01-26 14:45:53,405 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04296639579187303, below negative shortcut threshhold 0.05
+2022-01-26 14:45:54,036 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.041985632191117034, below negative shortcut threshhold 0.05
+2022-01-26 14:45:54,255 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04313187220182489, below negative shortcut threshhold 0.05
+2022-01-26 14:45:54,473 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04293252903074918, below negative shortcut threshhold 0.05
+2022-01-26 14:45:54,629 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03921812680647851, below negative shortcut threshhold 0.05
+2022-01-26 14:45:54,957 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.0492328901647811, below negative shortcut threshhold 0.05
+2022-01-26 14:45:55,170 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 confidence = 0.04835628710588783, below negative shortcut threshhold 0.05
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08245402913934567
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08434315719470219
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:55,312 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:55,313 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 not active
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP932 Japanese confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04749632628148277
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.038537917090419024
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04377118334005947
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.04945507157940326
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.04271137757201147
+2022-01-26 14:45:55,313 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04296639579187303
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08245402913934567
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08434315719470219
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.041985632191117034
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04313187220182489
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04293252903074918
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03921812680647851
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0492328901647811
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.04835628710588783
+2022-01-26 14:45:55,314 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:45:55,406 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:45:57,201 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /?p=6447 HTTP/1.1" 301 None
+2022-01-26 14:46:01,320 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /complete-healthcare-app-development-guide/ HTTP/1.1" 200 None
+2022-01-26 14:46:01,477 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:46:01,765 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/The-Complete-Healthcare-App-Development-Guide.png HTTP/1.1" 200 58386
+2022-01-26 14:46:01,776 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 77
+2022-01-26 14:46:01,776 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:46:01,777 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 77
+2022-01-26 14:46:01,777 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:46:01,777 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:46:01,777 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:46:01,777 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:46:01,815 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04938713104415713, below negative shortcut threshhold 0.05
+2022-01-26 14:46:01,852 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.033221773172968906, below negative shortcut threshhold 0.05
+2022-01-26 14:46:01,889 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04785050661732097, below negative shortcut threshhold 0.05
+2022-01-26 14:46:01,926 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.046217226962007356, below negative shortcut threshhold 0.05
+2022-01-26 14:46:01,963 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.03941723950858956, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,001 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04548429644115414, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,108 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04554649831628878, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,145 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04797952779068307, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,182 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04368969393290096, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,210 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03767499596937382, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,326 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:02,326 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:46:02,326 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:02,326 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:46:02,326 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:02,327 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:46:02,327 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04938713104415713
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.033221773172968906
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04785050661732097
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.046217226962007356
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.03941723950858956
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04548429644115414
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.04554649831628878
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04797952779068307
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04368969393290096
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03767499596937382
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:02,328 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:02,329 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:46:02,330 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 77
+2022-01-26 14:46:02,330 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:46:02,330 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 77
+2022-01-26 14:46:02,330 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:46:02,331 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:46:02,331 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:46:02,331 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:46:02,367 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04938713104415713, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,403 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.033221773172968906, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,440 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04785050661732097, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,476 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.046217226962007356, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,512 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.03941723950858956, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,548 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04548429644115414, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,655 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04554649831628878, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,691 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04797952779068307, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,728 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04368969393290096, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,755 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03767499596937382, below negative shortcut threshhold 0.05
+2022-01-26 14:46:02,869 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:02,870 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:02,870 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:46:02,870 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04938713104415713
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.033221773172968906
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04785050661732097
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.046217226962007356
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.03941723950858956
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04548429644115414
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.04554649831628878
+2022-01-26 14:46:02,871 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04797952779068307
+2022-01-26 14:46:02,872 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04368969393290096
+2022-01-26 14:46:02,872 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03767499596937382
+2022-01-26 14:46:02,872 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:02,872 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:02,872 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:02,872 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 77
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 77
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:46:02,948 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:46:02,985 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04938713104415713, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,021 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.033221773172968906, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,058 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04785050661732097, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,094 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.046217226962007356, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,131 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.03941723950858956, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,166 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04548429644115414, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,273 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04554649831628878, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,309 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04797952779068307, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,346 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04368969393290096, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,373 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03767499596937382, below negative shortcut threshhold 0.05
+2022-01-26 14:46:03,488 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:03,488 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:46:03,488 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:03,488 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:03,489 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:03,489 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:46:03,489 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:46:03,489 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:46:03,489 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:46:03,489 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:46:03,489 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04938713104415713
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.033221773172968906
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04785050661732097
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.046217226962007356
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.03941723950858956
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04548429644115414
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.04554649831628878
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04797952779068307
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04368969393290096
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03767499596937382
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:03,490 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:03,491 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:03,491 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:46:05,670 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 77
+2022-01-26 14:46:05,670 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:46:05,671 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 77
+2022-01-26 14:46:05,671 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:46:05,671 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:46:05,671 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:46:05,671 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:46:05,708 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04938713104415713, below negative shortcut threshhold 0.05
+2022-01-26 14:46:05,745 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.033221773172968906, below negative shortcut threshhold 0.05
+2022-01-26 14:46:05,781 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04785050661732097, below negative shortcut threshhold 0.05
+2022-01-26 14:46:05,818 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.046217226962007356, below negative shortcut threshhold 0.05
+2022-01-26 14:46:05,855 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.03941723950858956, below negative shortcut threshhold 0.05
+2022-01-26 14:46:05,891 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04548429644115414, below negative shortcut threshhold 0.05
+2022-01-26 14:46:05,997 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04554649831628878, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,033 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04797952779068307, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,070 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04368969393290096, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,097 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03767499596937382, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:06,212 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:46:06,213 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:46:06,213 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:06,213 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:06,213 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04938713104415713
+2022-01-26 14:46:06,213 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.033221773172968906
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04785050661732097
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.046217226962007356
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.03941723950858956
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04548429644115414
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.04554649831628878
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04797952779068307
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04368969393290096
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03767499596937382
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:06,214 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:46:06,288 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : SHIFT_JIS Japanese prober hit error at byte 77
+2022-01-26 14:46:06,288 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-JP Japanese prober hit error at byte 0
+2022-01-26 14:46:06,289 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : GB2312 Chinese prober hit error at byte 77
+2022-01-26 14:46:06,289 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-KR Korean prober hit error at byte 0
+2022-01-26 14:46:06,289 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : CP949 Korean prober hit error at byte 57
+2022-01-26 14:46:06,289 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : Big5 Chinese prober hit error at byte 0
+2022-01-26 14:46:06,289 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : EUC-TW Taiwan prober hit error at byte 0
+2022-01-26 14:46:06,325 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04938713104415713, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,362 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R confidence = 0.033221773172968906, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,398 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04785050661732097, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,434 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic confidence = 0.046217226962007356, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,470 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 confidence = 0.03941723950858956, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,506 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 confidence = 0.04548429644115414, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,612 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 confidence = 0.04554649831628878, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,648 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 confidence = 0.04797952779068307, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,684 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 confidence = 0.04368969393290096, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,711 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 confidence = 0.03767499596937382, below negative shortcut threshhold 0.05
+2022-01-26 14:46:06,826 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : KOI8-R not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : MacCyrillic not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM866 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : IBM855 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-5 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1251 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : TIS-620 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : ISO-8859-9 not active
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:06,827 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:06,828 DEBUG chardet.charsetprober Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : no probers hit minimum threshold
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : utf-8  confidence = 0.010000000000000009
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : SHIFT_JIS Japanese confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-JP Japanese confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : GB2312 Chinese confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-KR Korean confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : CP949 Korean confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : Big5 Chinese confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : EUC-TW Taiwan confidence = 0.01
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Russian confidence = 0.04938713104415713
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : KOI8-R Russian confidence = 0.033221773172968906
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Russian confidence = 0.04785050661732097
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : MacCyrillic Russian confidence = 0.046217226962007356
+2022-01-26 14:46:06,828 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM866 Russian confidence = 0.03941723950858956
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : IBM855 Russian confidence = 0.04548429644115414
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-7 Greek confidence = 0.08429978738524743
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1253 Greek confidence = 0.08596169336148818
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-5 Bulgarian confidence = 0.04554649831628878
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1251 Bulgarian confidence = 0.04797952779068307
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : TIS-620 Thai confidence = 0.04368969393290096
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-9 Turkish confidence = 0.03767499596937382
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.0
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05655993707397056
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : windows-1255 Hebrew confidence = 0.05576191327045775
+2022-01-26 14:46:06,829 DEBUG chardet.universaldetector Thread-21 (process_request_thread) : ISO-8859-1  confidence = 0.01
+2022-01-26 14:46:06,903 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 14:46:09,167 DEBUG urllib3.connectionpool Thread-21 (process_request_thread) : https://taglineinfotech.com:443 "GET /privacy-policy/ HTTP/1.1" 200 None
+2022-01-26 14:46:09,317 INFO main Thread-21 (process_request_thread) : Emails scrapped Successfully!
+2022-01-26 14:46:09,318 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:46:09] "POST / HTTP/1.1" 200 -
+2022-01-26 14:46:14,326 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [26/Jan/2022 14:46:14] "GET /uploads/result.xlsx HTTP/1.1" 200 -

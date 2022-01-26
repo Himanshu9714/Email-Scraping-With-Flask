@@ -6,6 +6,10 @@ import pandas as pd
 from web_scraping import scraping_emails
 import json
 import logging
+from worker import conn
+from rq import Queue
+
+q = Queue(connection=conn)
 
 # basedir = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_FOLDER = 'static/uploads'
@@ -43,7 +47,7 @@ def upload_file():
                 df = pd.read_excel(file_to_process,engine='openpyxl',dtype=object,header=None)
                 l = df.values.tolist()
                 res = list(map(''.join, l))
-                scraping_emails(res, app.config['UPLOAD_FOLDER'])
+                q.enqueue(scraping_emails(res, app.config['UPLOAD_FOLDER']), 'http://heroku.com')
                 app.logger.info("Emails scrapped Successfully!")
             except Exception as e:
                 print("This is error:", e)
