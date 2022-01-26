@@ -8,7 +8,7 @@ import json
 import logging
 
 basedir = os.path.abspath(os.path.dirname(__file__))
-UPLOAD_FOLDER = 'uploads'
+UPLOAD_FOLDER = 'static/uploads'
 ALLOWED_EXTENSIONS = {'xlsx'}
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = os.path.join(basedir,UPLOAD_FOLDER)
