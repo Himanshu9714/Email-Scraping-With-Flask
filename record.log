@@ -1,0 +1,831 @@
+2022-01-26 12:31:43,231 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-26 12:31:43,232 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:31:59,734 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/main.py', reloading
+2022-01-26 12:31:59,860 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:32:01,584 INFO werkzeug Thread-3 : 127.0.0.1 - - [26/Jan/2022 12:32:01] "GET / HTTP/1.1" 200 -
+2022-01-26 12:32:01,625 INFO werkzeug Thread-4 : 127.0.0.1 - - [26/Jan/2022 12:32:01] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:32:01,738 INFO werkzeug Thread-5 : 127.0.0.1 - - [26/Jan/2022 12:32:01] "GET / HTTP/1.1" 200 -
+2022-01-26 12:32:01,758 INFO werkzeug Thread-6 : 127.0.0.1 - - [26/Jan/2022 12:32:01] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:32:01,890 INFO werkzeug Thread-7 : 127.0.0.1 - - [26/Jan/2022 12:32:01] "GET / HTTP/1.1" 200 -
+2022-01-26 12:32:01,914 INFO werkzeug Thread-8 : 127.0.0.1 - - [26/Jan/2022 12:32:01] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:32:02,042 INFO werkzeug Thread-9 : 127.0.0.1 - - [26/Jan/2022 12:32:02] "GET / HTTP/1.1" 200 -
+2022-01-26 12:32:02,062 INFO werkzeug Thread-10 : 127.0.0.1 - - [26/Jan/2022 12:32:02] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:32:02,292 INFO werkzeug Thread-11 : 127.0.0.1 - - [26/Jan/2022 12:32:02] "GET / HTTP/1.1" 200 -
+2022-01-26 12:32:02,312 INFO werkzeug Thread-12 : 127.0.0.1 - - [26/Jan/2022 12:32:02] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:32:08,876 INFO main Thread-13 : Getting file from request object if exist
+2022-01-26 12:32:08,879 INFO main Thread-13 : Checking File Extension
+2022-01-26 12:32:09,186 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:09,415 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 12:32:09,515 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:10,447 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 12:32:10,868 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:11,181 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 12:32:11,377 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:11,594 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/mobile-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:11,808 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:11,956 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/android-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:12,132 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:12,266 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/ios-appdevelopment-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:12,443 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:12,685 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/react-native-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:12,859 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:13,037 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/flutter-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:13,302 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:14,234 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/cross-platform-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:14,613 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:14,826 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/web-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:14,982 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:15,189 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/angularjs-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:15,407 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:16,348 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/nodejs-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:16,769 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:17,048 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/django-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:17,220 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:17,418 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/reactjs-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:17,583 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:17,772 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/python-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:17,997 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:19,231 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/ruby-on-rails-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:19,408 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:21,112 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/digital-marketing-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:21,278 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:27,844 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/seo-services-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:28,215 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:31,502 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/social-media-marketing-services/ HTTP/1.1" 200 None
+2022-01-26 12:32:31,784 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:31,952 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/ppc-services-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:32,107 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:35,441 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/app-store-optimization-services/ HTTP/1.1" 200 None
+2022-01-26 12:32:35,610 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:35,740 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /food-delivery-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:32:35,958 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:38,229 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /healthcare-software-development/ HTTP/1.1" 200 None
+2022-01-26 12:32:38,423 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:39,494 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /taxi-booking-app-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:32:39,921 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:42,305 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /education-management-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:32:42,468 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:45,683 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /event-management-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:32:46,080 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:50,101 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /gym-exercise-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:32:50,505 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:32:59,755 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /dating-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:32:59,915 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:04,460 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/testing-qa-services/ HTTP/1.1" 200 None
+2022-01-26 12:33:04,746 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:06,445 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/ui-ux-desgin-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:33:06,658 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:10,104 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /sports-fantacy-app-solution/ HTTP/1.1" 200 None
+2022-01-26 12:33:10,316 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:11,200 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /media-entertainment-app HTTP/1.1" 301 None
+2022-01-26 12:33:14,868 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /media-entertainment-app/ HTTP/1.1" 200 None
+2022-01-26 12:33:15,092 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:19,167 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /doctor-appointment-app/ HTTP/1.1" 200 None
+2022-01-26 12:33:19,357 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:24,635 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /grocery-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:33:25,023 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:25,951 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /portfolio/ HTTP/1.1" 200 None
+2022-01-26 12:33:26,320 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:26,497 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /about-us/ HTTP/1.1" 200 None
+2022-01-26 12:33:26,657 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:29,269 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /business-development/ HTTP/1.1" 200 None
+2022-01-26 12:33:29,448 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:30,729 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /career/ HTTP/1.1" 200 None
+2022-01-26 12:33:30,915 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:31,110 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /blog/ HTTP/1.1" 200 None
+2022-01-26 12:33:31,405 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:36,366 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /contact-us/ HTTP/1.1" 200 None
+2022-01-26 12:33:40,783 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:45,455 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /service/jquery-development-company/ HTTP/1.1" 200 None
+2022-01-26 12:33:45,644 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:46,582 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /media-entertainment-app/ HTTP/1.1" 200 None
+2022-01-26 12:33:46,983 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:50,098 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /life-at-tagline/ HTTP/1.1" 200 None
+2022-01-26 12:33:50,266 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:54,933 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /portfolio_list/care-clinic-application-development/ HTTP/1.1" 200 None
+2022-01-26 12:33:55,119 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:33:59,277 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /portfolio_list/hashtag-investing-app-investment-app-developement/ HTTP/1.1" 200 None
+2022-01-26 12:33:59,676 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:01,903 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /portfolio_list/yoshoopers-mobile-application/ HTTP/1.1" 200 None
+2022-01-26 12:34:02,108 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:03,024 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /?p=7886 HTTP/1.1" 301 None
+2022-01-26 12:34:03,118 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /free-paid-best-budgeting-apps/ HTTP/1.1" 200 None
+2022-01-26 12:34:03,829 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:04,143 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/10-Most-Reliable-Free-Paid-Best-Budgeting-Apps.png HTTP/1.1" 200 285788
+2022-01-26 12:34:04,409 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:04,409 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:04,416 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,421 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:04,428 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 443.400000 %.
+2022-01-26 12:34:04,433 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,439 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 312.850000 %.
+2022-01-26 12:34:04,443 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,446 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,450 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 281: character maps to <undefined>
+2022-01-26 12:34:04,452 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,456 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,458 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,462 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,466 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 294.850000 %.
+2022-01-26 12:34:04,470 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,473 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:04,477 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,479 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:04,482 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 329.600000 %.
+2022-01-26 12:34:04,485 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,491 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 260.300000 %.
+2022-01-26 12:34:04,497 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,503 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 282.000000 %.
+2022-01-26 12:34:04,510 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 292.900000 %.
+2022-01-26 12:34:04,514 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe7 in position 113: character maps to <undefined>
+2022-01-26 12:34:04,519 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,524 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,529 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,534 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,540 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,543 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:04,549 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,554 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,558 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x83 in position 100: character maps to <undefined>
+2022-01-26 12:34:04,564 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0x9c in position 92: illegal multibyte sequence
+2022-01-26 12:34:04,568 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xa0 in position 67: illegal multibyte sequence
+2022-01-26 12:34:04,570 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,573 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,575 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,578 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,580 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,586 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xa0 in position 67: illegal multibyte sequence
+2022-01-26 12:34:04,588 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,591 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xa0 in position 67: illegal multibyte sequence
+2022-01-26 12:34:04,593 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 1949: character maps to <undefined>
+2022-01-26 12:34:04,596 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,601 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,603 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,605 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,608 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,610 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,613 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,615 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:04,620 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 308.800000 %.
+2022-01-26 12:34:04,623 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xfe in position 72: character maps to <undefined>
+2022-01-26 12:34:04,633 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 301.550000 %.
+2022-01-26 12:34:04,637 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,642 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,647 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 321.400000 %.
+2022-01-26 12:34:04,651 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,654 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe3 in position 106: character maps to <undefined>
+2022-01-26 12:34:04,658 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,662 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 344.800000 %.
+2022-01-26 12:34:04,666 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:04,669 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xd2 in position 79: character maps to <undefined>
+2022-01-26 12:34:04,673 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xbf in position 76: character maps to <undefined>
+2022-01-26 12:34:04,676 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,680 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:04,684 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 334.950000 %.
+2022-01-26 12:34:04,688 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 281: character maps to <undefined>
+2022-01-26 12:34:04,688 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,693 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 272.400000 %.
+2022-01-26 12:34:04,698 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 308.200000 %.
+2022-01-26 12:34:04,703 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 333.100000 %.
+2022-01-26 12:34:04,708 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 247.700000 %.
+2022-01-26 12:34:04,711 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,716 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:04,720 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 267.800000 %.
+2022-01-26 12:34:04,724 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xa0 in position 67: illegal multibyte sequence
+2022-01-26 12:34:04,726 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xa0 in position 67: illegal multibyte sequence
+2022-01-26 12:34:04,729 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xa0 in position 67: illegal multibyte sequence
+2022-01-26 12:34:04,732 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xa0 in position 67: character maps to <undefined>
+2022-01-26 12:34:04,732 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:04,733 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:04,733 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 134-135: illegal encoding
+2022-01-26 12:34:04,733 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:04,737 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:04,739 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:04,742 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:04,872 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:05,898 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /?p=7163 HTTP/1.1" 301 None
+2022-01-26 12:34:08,485 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /why-you-should-choose-angularjs-for-web-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:34:08,676 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:08,769 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/Why-Should-You-Choose-AngularJS-For-Web-Application-Development.png HTTP/1.1" 200 190318
+2022-01-26 12:34:08,876 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:08,876 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:08,876 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,876 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:08,878 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 464.900000 %.
+2022-01-26 12:34:08,879 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,880 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 325.600000 %.
+2022-01-26 12:34:08,881 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,881 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,881 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 111: character maps to <undefined>
+2022-01-26 12:34:08,881 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,881 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,881 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,882 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,883 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 288.700000 %.
+2022-01-26 12:34:08,883 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,883 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:08,884 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,884 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:08,886 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 324.800000 %.
+2022-01-26 12:34:08,886 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,888 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 315.600000 %.
+2022-01-26 12:34:08,888 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,890 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 325.200000 %.
+2022-01-26 12:34:08,891 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 338.350000 %.
+2022-01-26 12:34:08,891 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe7 in position 56: character maps to <undefined>
+2022-01-26 12:34:08,892 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,892 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,893 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,893 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,894 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,894 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:08,894 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x87 in position 108: character maps to <undefined>
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,895 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 284: character maps to <undefined>
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,896 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,897 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:08,898 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 292.350000 %.
+2022-01-26 12:34:08,898 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xfd in position 65: character maps to <undefined>
+2022-01-26 12:34:08,900 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 293.900000 %.
+2022-01-26 12:34:08,900 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,901 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,902 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 335.200000 %.
+2022-01-26 12:34:08,903 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,903 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xbe in position 96: character maps to <undefined>
+2022-01-26 12:34:08,903 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,905 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 336.300000 %.
+2022-01-26 12:34:08,905 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:08,905 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xd2 in position 93: character maps to <undefined>
+2022-01-26 12:34:08,905 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xc5 in position 78: character maps to <undefined>
+2022-01-26 12:34:08,906 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,906 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:08,907 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 326.700000 %.
+2022-01-26 12:34:08,907 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 111: character maps to <undefined>
+2022-01-26 12:34:08,907 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,909 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 291.000000 %.
+2022-01-26 12:34:08,911 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 288.650000 %.
+2022-01-26 12:34:08,912 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 314.400000 %.
+2022-01-26 12:34:08,914 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 250.350000 %.
+2022-01-26 12:34:08,914 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,915 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:08,917 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 267.500000 %.
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xe7 in position 56: illegal multibyte sequence
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xfd in position 65: character maps to <undefined>
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 96-97: illegal encoding
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:08,917 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:08,918 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:09,039 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:10,620 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /?p=6706 HTTP/1.1" 301 None
+2022-01-26 12:34:14,794 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /python-framework-for-mobile-app-development/ HTTP/1.1" 200 None
+2022-01-26 12:34:15,313 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:15,526 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/Best-Python-Framework-For-Mobile-App-Development.png HTTP/1.1" 200 339272
+2022-01-26 12:34:15,765 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:15,765 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:15,765 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,765 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:15,767 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 443.200000 %.
+2022-01-26 12:34:15,768 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,770 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 303.750000 %.
+2022-01-26 12:34:15,771 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,771 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,771 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 128: character maps to <undefined>
+2022-01-26 12:34:15,771 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,772 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,772 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,772 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,774 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 318.400000 %.
+2022-01-26 12:34:15,774 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,774 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:15,775 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,775 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:15,777 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 327.450000 %.
+2022-01-26 12:34:15,778 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,780 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 251.250000 %.
+2022-01-26 12:34:15,780 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,782 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 338.900000 %.
+2022-01-26 12:34:15,784 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 282.050000 %.
+2022-01-26 12:34:15,784 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xd5 in position 117: character maps to <undefined>
+2022-01-26 12:34:15,785 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,786 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,787 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,788 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,788 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,789 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:15,789 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,790 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,790 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x87 in position 168: character maps to <undefined>
+2022-01-26 12:34:15,790 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0xf7 in position 88: illegal multibyte sequence
+2022-01-26 12:34:15,790 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xfa in position 57: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xff in position 89: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xff in position 89: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 89: character maps to <undefined>
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,791 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,792 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,792 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,792 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,792 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,792 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,792 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:15,794 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 343.450000 %.
+2022-01-26 12:34:15,794 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xfd in position 65: character maps to <undefined>
+2022-01-26 12:34:15,796 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 312.200000 %.
+2022-01-26 12:34:15,797 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,798 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,799 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 346.650000 %.
+2022-01-26 12:34:15,800 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,800 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xa5 in position 199: character maps to <undefined>
+2022-01-26 12:34:15,801 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,803 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 316.650000 %.
+2022-01-26 12:34:15,803 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:15,803 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 89: character maps to <undefined>
+2022-01-26 12:34:15,804 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdb in position 68: character maps to <undefined>
+2022-01-26 12:34:15,804 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,804 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:15,806 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 316.800000 %.
+2022-01-26 12:34:15,806 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 128: character maps to <undefined>
+2022-01-26 12:34:15,807 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,808 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 274.450000 %.
+2022-01-26 12:34:15,810 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 281.950000 %.
+2022-01-26 12:34:15,812 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 323.650000 %.
+2022-01-26 12:34:15,814 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 254.350000 %.
+2022-01-26 12:34:15,815 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,816 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:15,818 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 262.050000 %.
+2022-01-26 12:34:15,818 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xfa in position 57: illegal multibyte sequence
+2022-01-26 12:34:15,818 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xfd in position 65: illegal multibyte sequence
+2022-01-26 12:34:15,818 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xfd in position 65: illegal multibyte sequence
+2022-01-26 12:34:15,818 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xfd in position 65: character maps to <undefined>
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 82-83: illegal UTF-16 surrogate
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:15,819 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:15,951 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:17,659 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /?p=6447 HTTP/1.1" 301 None
+2022-01-26 12:34:20,273 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /complete-healthcare-app-development-guide/ HTTP/1.1" 200 None
+2022-01-26 12:34:20,672 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:20,798 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /wp-content/uploads/2022/01/The-Complete-Healthcare-App-Development-Guide.png HTTP/1.1" 200 58386
+2022-01-26 12:34:20,831 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:20,831 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:20,832 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,832 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:20,833 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 353.400000 %.
+2022-01-26 12:34:20,833 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,835 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 312.400000 %.
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,835 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,837 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 306.000000 %.
+2022-01-26 12:34:20,837 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,837 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,837 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,837 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:20,838 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 362.350000 %.
+2022-01-26 12:34:20,838 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,840 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 285.250000 %.
+2022-01-26 12:34:20,840 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,841 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 348.300000 %.
+2022-01-26 12:34:20,843 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 310.300000 %.
+2022-01-26 12:34:20,843 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe7 in position 1036: character maps to <undefined>
+2022-01-26 12:34:20,843 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,843 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,843 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,843 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x83 in position 86: character maps to <undefined>
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xe3 in position 56: illegal multibyte sequence
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,844 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,845 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,846 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,846 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,846 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,847 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 368.850000 %.
+2022-01-26 12:34:20,847 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:20,848 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 360.300000 %.
+2022-01-26 12:34:20,848 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,848 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,850 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 434.100000 %.
+2022-01-26 12:34:20,850 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,850 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe3 in position 56: character maps to <undefined>
+2022-01-26 12:34:20,850 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,851 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 419.900000 %.
+2022-01-26 12:34:20,851 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:20,851 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:20,852 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:20,852 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,852 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:20,853 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 361.950000 %.
+2022-01-26 12:34:20,853 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:20,853 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,855 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 299.300000 %.
+2022-01-26 12:34:20,856 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 343.850000 %.
+2022-01-26 12:34:20,857 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 323.900000 %.
+2022-01-26 12:34:20,858 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 302.500000 %.
+2022-01-26 12:34:20,859 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,859 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,860 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 271.600000 %.
+2022-01-26 12:34:20,860 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xf0 in position 72: illegal multibyte sequence
+2022-01-26 12:34:20,860 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,860 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,860 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xa0 in position 57: character maps to <undefined>
+2022-01-26 12:34:20,860 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:20,860 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:20,861 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 64-65: illegal encoding
+2022-01-26 12:34:20,861 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:20,861 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:20,861 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:20,861 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:20,981 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:20,981 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:20,981 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,981 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:20,981 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 353.400000 %.
+2022-01-26 12:34:20,981 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,982 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 312.400000 %.
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,982 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,982 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 306.000000 %.
+2022-01-26 12:34:20,983 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,983 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:20,983 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,983 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:20,983 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 362.350000 %.
+2022-01-26 12:34:20,983 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,984 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 285.250000 %.
+2022-01-26 12:34:20,984 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,984 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 348.300000 %.
+2022-01-26 12:34:20,984 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 310.300000 %.
+2022-01-26 12:34:20,984 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe7 in position 1036: character maps to <undefined>
+2022-01-26 12:34:20,984 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,985 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,985 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,985 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,985 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,985 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x83 in position 86: character maps to <undefined>
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xe3 in position 56: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,986 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:20,987 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 368.850000 %.
+2022-01-26 12:34:20,987 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:20,988 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 360.300000 %.
+2022-01-26 12:34:20,988 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,988 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,988 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 434.100000 %.
+2022-01-26 12:34:20,988 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe3 in position 56: character maps to <undefined>
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,989 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 419.900000 %.
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,989 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:20,990 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 361.950000 %.
+2022-01-26 12:34:20,990 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:20,990 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,990 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 299.300000 %.
+2022-01-26 12:34:20,990 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 343.850000 %.
+2022-01-26 12:34:20,990 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 323.900000 %.
+2022-01-26 12:34:20,991 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 302.500000 %.
+2022-01-26 12:34:20,991 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,991 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:20,991 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 271.600000 %.
+2022-01-26 12:34:20,991 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xf0 in position 72: illegal multibyte sequence
+2022-01-26 12:34:20,991 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xa0 in position 57: character maps to <undefined>
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 64-65: illegal encoding
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:20,992 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:21,107 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:21,107 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:21,107 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,107 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:21,107 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 353.400000 %.
+2022-01-26 12:34:21,107 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,108 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 312.400000 %.
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,108 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,108 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 306.000000 %.
+2022-01-26 12:34:21,109 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,109 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,109 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,109 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:21,109 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 362.350000 %.
+2022-01-26 12:34:21,109 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,110 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 285.250000 %.
+2022-01-26 12:34:21,110 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,110 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 348.300000 %.
+2022-01-26 12:34:21,110 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 310.300000 %.
+2022-01-26 12:34:21,110 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe7 in position 1036: character maps to <undefined>
+2022-01-26 12:34:21,110 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,111 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,111 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,111 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,111 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,111 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x83 in position 86: character maps to <undefined>
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xe3 in position 56: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,112 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,113 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,114 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 368.850000 %.
+2022-01-26 12:34:21,114 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:21,114 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 360.300000 %.
+2022-01-26 12:34:21,114 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,114 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,114 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 434.100000 %.
+2022-01-26 12:34:21,115 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,115 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe3 in position 56: character maps to <undefined>
+2022-01-26 12:34:21,115 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,115 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 419.900000 %.
+2022-01-26 12:34:21,115 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:21,115 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:21,115 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:21,116 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,116 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:21,116 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 361.950000 %.
+2022-01-26 12:34:21,116 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:21,116 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,116 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 299.300000 %.
+2022-01-26 12:34:21,116 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 343.850000 %.
+2022-01-26 12:34:21,117 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 323.900000 %.
+2022-01-26 12:34:21,117 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 302.500000 %.
+2022-01-26 12:34:21,117 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,117 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,118 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 271.600000 %.
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xf0 in position 72: illegal multibyte sequence
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xa0 in position 57: character maps to <undefined>
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 64-65: illegal encoding
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:21,118 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:21,232 DEBUG charset_normalizer Thread-13 : Code page ascii does not fit given bytes sequence at ALL. 'ascii' codec can't decode byte 0x89 in position 0: ordinal not in range(128)
+2022-01-26 12:34:21,233 DEBUG charset_normalizer Thread-13 : Code page utf_8 does not fit given bytes sequence at ALL. 'utf-8' codec can't decode byte 0x89 in position 0: invalid start byte
+2022-01-26 12:34:21,233 DEBUG charset_normalizer Thread-13 : Code page big5 does not fit given bytes sequence at ALL. 'big5' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,234 DEBUG charset_normalizer Thread-13 : Code page big5hkscs does not fit given bytes sequence at ALL. 'big5hkscs' codec can't decode byte 0x9a in position 51: illegal multibyte sequence
+2022-01-26 12:34:21,234 INFO charset_normalizer Thread-13 : cp037 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 353.400000 %.
+2022-01-26 12:34:21,234 DEBUG charset_normalizer Thread-13 : cp1026 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,235 INFO charset_normalizer Thread-13 : cp1125 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 312.400000 %.
+2022-01-26 12:34:21,235 DEBUG charset_normalizer Thread-13 : cp1140 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,235 DEBUG charset_normalizer Thread-13 : Code page cp1250 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,235 DEBUG charset_normalizer Thread-13 : Code page cp1251 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:21,235 DEBUG charset_normalizer Thread-13 : Code page cp1252 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,236 DEBUG charset_normalizer Thread-13 : Code page cp1253 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,236 DEBUG charset_normalizer Thread-13 : Code page cp1254 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,236 DEBUG charset_normalizer Thread-13 : Code page cp1255 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,236 INFO charset_normalizer Thread-13 : cp1256 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 306.000000 %.
+2022-01-26 12:34:21,237 DEBUG charset_normalizer Thread-13 : Code page cp1257 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,237 DEBUG charset_normalizer Thread-13 : Code page cp1258 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x90 in position 29: character maps to <undefined>
+2022-01-26 12:34:21,237 DEBUG charset_normalizer Thread-13 : cp273 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,237 DEBUG charset_normalizer Thread-13 : Code page cp424 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:21,238 INFO charset_normalizer Thread-13 : cp437 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 362.350000 %.
+2022-01-26 12:34:21,238 DEBUG charset_normalizer Thread-13 : cp500 is deemed too similar to code page cp037 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,238 INFO charset_normalizer Thread-13 : cp775 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 285.250000 %.
+2022-01-26 12:34:21,238 DEBUG charset_normalizer Thread-13 : cp850 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,239 INFO charset_normalizer Thread-13 : cp852 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 348.300000 %.
+2022-01-26 12:34:21,239 INFO charset_normalizer Thread-13 : cp855 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 310.300000 %.
+2022-01-26 12:34:21,239 DEBUG charset_normalizer Thread-13 : Code page cp857 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe7 in position 1036: character maps to <undefined>
+2022-01-26 12:34:21,239 DEBUG charset_normalizer Thread-13 : cp858 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,240 DEBUG charset_normalizer Thread-13 : cp860 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,240 DEBUG charset_normalizer Thread-13 : cp861 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,240 DEBUG charset_normalizer Thread-13 : cp862 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,240 DEBUG charset_normalizer Thread-13 : cp863 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,240 DEBUG charset_normalizer Thread-13 : Code page cp864 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x9c in position 52: character maps to <undefined>
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : cp865 is deemed too similar to code page cp437 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : cp866 is deemed too similar to code page cp1125 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page cp869 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x83 in position 86: character maps to <undefined>
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page cp932 does not fit given bytes sequence at ALL. 'cp932' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page cp949 does not fit given bytes sequence at ALL. 'cp949' codec can't decode byte 0xe3 in position 56: illegal multibyte sequence
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page cp950 does not fit given bytes sequence at ALL. 'cp950' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page euc_jis_2004 does not fit given bytes sequence at ALL. 'euc_jis_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page euc_jisx0213 does not fit given bytes sequence at ALL. 'euc_jisx0213' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page euc_jp does not fit given bytes sequence at ALL. 'euc_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,241 DEBUG charset_normalizer Thread-13 : Code page euc_kr does not fit given bytes sequence at ALL. 'euc_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page gb18030 does not fit given bytes sequence at ALL. 'gb18030' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page gb2312 does not fit given bytes sequence at ALL. 'gb2312' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page gbk does not fit given bytes sequence at ALL. 'gbk' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page hp_roman8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page hz does not fit given bytes sequence at ALL. 'hz' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp does not fit given bytes sequence at ALL. 'iso2022_jp' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_1 does not fit given bytes sequence at ALL. 'iso2022_jp_1' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2 does not fit given bytes sequence at ALL. 'iso2022_jp_2' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,242 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_2004 does not fit given bytes sequence at ALL. 'iso2022_jp_2004' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,243 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_3 does not fit given bytes sequence at ALL. 'iso2022_jp_3' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,243 DEBUG charset_normalizer Thread-13 : Code page iso2022_jp_ext does not fit given bytes sequence at ALL. 'iso2022_jp_ext' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,243 DEBUG charset_normalizer Thread-13 : Code page iso2022_kr does not fit given bytes sequence at ALL. 'iso2022_kr' codec can't decode byte 0x89 in position 0: illegal multibyte sequence
+2022-01-26 12:34:21,243 INFO charset_normalizer Thread-13 : iso8859_10 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 368.850000 %.
+2022-01-26 12:34:21,243 DEBUG charset_normalizer Thread-13 : Code page iso8859_11 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:21,243 INFO charset_normalizer Thread-13 : iso8859_13 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 360.300000 %.
+2022-01-26 12:34:21,244 DEBUG charset_normalizer Thread-13 : iso8859_14 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,244 DEBUG charset_normalizer Thread-13 : iso8859_15 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,244 INFO charset_normalizer Thread-13 : iso8859_16 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 434.100000 %.
+2022-01-26 12:34:21,244 DEBUG charset_normalizer Thread-13 : iso8859_2 is deemed too similar to code page iso8859_16 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,244 DEBUG charset_normalizer Thread-13 : Code page iso8859_3 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xe3 in position 56: character maps to <undefined>
+2022-01-26 12:34:21,245 DEBUG charset_normalizer Thread-13 : iso8859_4 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,245 INFO charset_normalizer Thread-13 : iso8859_5 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 419.900000 %.
+2022-01-26 12:34:21,245 DEBUG charset_normalizer Thread-13 : Code page iso8859_6 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdf in position 30: character maps to <undefined>
+2022-01-26 12:34:21,245 DEBUG charset_normalizer Thread-13 : Code page iso8859_7 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xff in position 837: character maps to <undefined>
+2022-01-26 12:34:21,245 DEBUG charset_normalizer Thread-13 : Code page iso8859_8 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xdd in position 65: character maps to <undefined>
+2022-01-26 12:34:21,245 DEBUG charset_normalizer Thread-13 : iso8859_9 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,246 DEBUG charset_normalizer Thread-13 : Code page johab does not fit given bytes sequence at ALL. 'johab' codec can't decode byte 0x90 in position 29: illegal multibyte sequence
+2022-01-26 12:34:21,246 INFO charset_normalizer Thread-13 : koi8_r was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 361.950000 %.
+2022-01-26 12:34:21,246 DEBUG charset_normalizer Thread-13 : Code page kz1048 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0x98 in position 821: character maps to <undefined>
+2022-01-26 12:34:21,246 DEBUG charset_normalizer Thread-13 : latin_1 is deemed too similar to code page iso8859_10 and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,246 INFO charset_normalizer Thread-13 : mac_cyrillic was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 299.300000 %.
+2022-01-26 12:34:21,246 INFO charset_normalizer Thread-13 : mac_greek was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 343.850000 %.
+2022-01-26 12:34:21,247 INFO charset_normalizer Thread-13 : mac_iceland was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 323.900000 %.
+2022-01-26 12:34:21,247 INFO charset_normalizer Thread-13 : mac_latin2 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 302.500000 %.
+2022-01-26 12:34:21,247 DEBUG charset_normalizer Thread-13 : mac_roman is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,248 DEBUG charset_normalizer Thread-13 : mac_turkish is deemed too similar to code page mac_iceland and was consider unsuited already. Continuing!
+2022-01-26 12:34:21,248 INFO charset_normalizer Thread-13 : ptcp154 was excluded because of initial chaos probing. Gave up 2 time(s). Computed mean chaos is 271.600000 %.
+2022-01-26 12:34:21,249 DEBUG charset_normalizer Thread-13 : Code page shift_jis does not fit given bytes sequence at ALL. 'shift_jis' codec can't decode byte 0xf0 in position 72: illegal multibyte sequence
+2022-01-26 12:34:21,249 DEBUG charset_normalizer Thread-13 : Code page shift_jis_2004 does not fit given bytes sequence at ALL. 'shift_jis_2004' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,249 DEBUG charset_normalizer Thread-13 : Code page shift_jisx0213 does not fit given bytes sequence at ALL. 'shift_jisx0213' codec can't decode byte 0xf4 in position 76: illegal multibyte sequence
+2022-01-26 12:34:21,249 DEBUG charset_normalizer Thread-13 : Code page tis_620 does not fit given bytes sequence at ALL. 'charmap' codec can't decode byte 0xa0 in position 57: character maps to <undefined>
+2022-01-26 12:34:21,250 DEBUG charset_normalizer Thread-13 : Encoding utf_16 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:21,250 DEBUG charset_normalizer Thread-13 : Code page utf_16_be does not fit given bytes sequence at ALL. 'utf-16-be' codec can't decode bytes in position 30-31: illegal encoding
+2022-01-26 12:34:21,250 DEBUG charset_normalizer Thread-13 : Code page utf_16_le does not fit given bytes sequence at ALL. 'utf-16-le' codec can't decode bytes in position 64-65: illegal encoding
+2022-01-26 12:34:21,250 DEBUG charset_normalizer Thread-13 : Encoding utf_32 wont be tested as-is because it require a BOM. Will try some sub-encoder LE/BE.
+2022-01-26 12:34:21,252 DEBUG charset_normalizer Thread-13 : Code page utf_32_be does not fit given bytes sequence at ALL. 'utf-32-be' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:21,252 DEBUG charset_normalizer Thread-13 : Code page utf_32_le does not fit given bytes sequence at ALL. 'utf-32-le' codec can't decode bytes in position 0-3: code point not in range(0x110000)
+2022-01-26 12:34:21,252 DEBUG charset_normalizer Thread-13 : Code page utf_7 does not fit given bytes sequence at ALL. 'utf7' codec can't decode byte 0x89 in position 0: unexpected special character
+2022-01-26 12:34:21,374 DEBUG urllib3.connectionpool Thread-13 : Starting new HTTPS connection (1): taglineinfotech.com:443
+2022-01-26 12:34:23,514 DEBUG urllib3.connectionpool Thread-13 : https://taglineinfotech.com:443 "GET /privacy-policy/ HTTP/1.1" 200 None
+2022-01-26 12:34:23,949 INFO main Thread-13 : Emails scrapped Successfully!
+2022-01-26 12:34:23,950 INFO werkzeug Thread-13 : 127.0.0.1 - - [26/Jan/2022 12:34:23] "POST / HTTP/1.1" 200 -
+2022-01-26 12:34:33,686 INFO werkzeug Thread-14 : 127.0.0.1 - - [26/Jan/2022 12:34:33] "GET / HTTP/1.1" 200 -
+2022-01-26 12:34:33,715 INFO werkzeug Thread-15 : 127.0.0.1 - - [26/Jan/2022 12:34:33] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:34:38,397 INFO main Thread-16 : Getting file from request object if exist
+2022-01-26 12:34:38,399 INFO main Thread-16 : Checking File Extension
+2022-01-26 12:34:38,431 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:38,858 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /about-us HTTP/1.1" 200 None
+2022-01-26 12:34:38,927 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:39,207 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /about-us HTTP/1.1" 200 None
+2022-01-26 12:34:39,454 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:40,113 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET / HTTP/1.1" 200 None
+2022-01-26 12:34:40,671 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:41,111 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /plus HTTP/1.1" 200 None
+2022-01-26 12:34:41,345 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:41,782 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /account/login?ret=/about-us HTTP/1.1" 200 None
+2022-01-26 12:34:42,026 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:42,429 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /viewcart?otracker=Cart_Icon_Click HTTP/1.1" 200 None
+2022-01-26 12:34:42,606 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:42,906 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /helpcentre?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:43,085 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:43,504 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /about-us?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:43,732 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:43,991 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /s/press?otracker=undefined_footer_navlinks HTTP/1.1" 301 178
+2022-01-26 12:34:44,013 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTP connection (1): stories.flipkart.com:80
+2022-01-26 12:34:44,564 DEBUG urllib3.connectionpool Thread-16 : http://stories.flipkart.com:80 "GET /category/top-stories/news/ HTTP/1.1" 301 162
+2022-01-26 12:34:44,570 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): stories.flipkart.com:443
+2022-01-26 12:34:46,527 DEBUG urllib3.connectionpool Thread-16 : https://stories.flipkart.com:443 "GET /category/top-stories/news/ HTTP/1.1" 200 57270
+2022-01-26 12:34:47,343 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:47,787 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /corporate-information HTTP/1.1" 200 None
+2022-01-26 12:34:47,908 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:48,271 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/payments HTTP/1.1" 200 None
+2022-01-26 12:34:48,435 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:48,856 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/shipping HTTP/1.1" 200 None
+2022-01-26 12:34:49,095 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:49,523 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG HTTP/1.1" 200 None
+2022-01-26 12:34:49,694 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:50,061 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG HTTP/1.1" 200 None
+2022-01-26 12:34:50,234 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:50,659 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/returnpolicy?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:50,833 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:51,275 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/terms?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:51,448 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:51,897 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/paymentsecurity?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:52,145 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:52,531 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/privacypolicy?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:52,696 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:52,969 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /sitemap?otracker=undefined_footer_navlinks HTTP/1.1" 500 5465
+2022-01-26 12:34:53,014 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:53,404 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /pages/ewaste-compliance-tnc?otracker=undefined_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:53,566 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:53,885 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /the-gift-card-store?otracker=undefined_footer_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:54,087 DEBUG urllib3.connectionpool Thread-16 : Starting new HTTPS connection (1): www.flipkart.com:443
+2022-01-26 12:34:54,489 DEBUG urllib3.connectionpool Thread-16 : https://www.flipkart.com:443 "GET /helpcentre?otracker=undefined_footer_footer_navlinks HTTP/1.1" 200 None
+2022-01-26 12:34:54,650 INFO main Thread-16 : Emails scrapped Successfully!
+2022-01-26 12:34:54,651 INFO werkzeug Thread-16 : 127.0.0.1 - - [26/Jan/2022 12:34:54] "POST / HTTP/1.1" 200 -
+2022-01-26 12:35:07,612 INFO werkzeug Thread-17 : 127.0.0.1 - - [26/Jan/2022 12:35:07] "GET /uploads/result.xlsx HTTP/1.1" 200 -
+2022-01-26 12:36:00,177 INFO werkzeug Thread-18 : 127.0.0.1 - - [26/Jan/2022 12:36:00] "GET / HTTP/1.1" 200 -
+2022-01-26 12:36:00,208 INFO werkzeug Thread-19 : 127.0.0.1 - - [26/Jan/2022 12:36:00] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-26 12:38:50,615 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/main.py', reloading
+2022-01-26 12:38:50,814 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:39:03,743 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/main.py', reloading
+2022-01-26 12:39:03,863 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:39:23,677 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/main.py', reloading
+2022-01-26 12:39:23,797 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:40:32,019 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/web_scraping.py', reloading
+2022-01-26 12:40:32,145 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:40:42,609 INFO werkzeug MainThread :  * Restarting with stat
+2022-01-26 12:41:20,072 INFO werkzeug MainThread :  * Detected change in '/Users/mac/Documents/Temporary/emailscrap/web_scraping.py', reloading
+2022-01-26 12:41:20,198 INFO werkzeug MainThread :  * Restarting with stat

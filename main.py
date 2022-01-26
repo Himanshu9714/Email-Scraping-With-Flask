@@ -7,11 +7,11 @@ from web_scraping import scraping_emails
 import json
 import logging
 
-basedir = os.path.abspath(os.path.dirname(__file__))
+# basedir = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_FOLDER = 'static/uploads'
 ALLOWED_EXTENSIONS = {'xlsx'}
 app = Flask(__name__)
-app.config['UPLOAD_FOLDER'] = os.path.join(basedir,UPLOAD_FOLDER)
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = '427c64d1e8e2d5c13bff0beeb588131a'
 logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
@@ -37,6 +37,7 @@ def upload_file():
             filename = secure_filename(file.filename)
             file_to_process = os.path.join(app.config['UPLOAD_FOLDER'], filename)
             file.save(file_to_process)
+            print(file_to_process)
 
             try:
                 df = pd.read_excel(file_to_process,engine='openpyxl',dtype=object,header=None)
@@ -44,7 +45,8 @@ def upload_file():
                 res = list(map(''.join, l))
                 scraping_emails(res, app.config['UPLOAD_FOLDER'])
                 app.logger.info("Emails scrapped Successfully!")
-            except Exception:
+            except Exception as e:
+                print("This is error:", e)
                 app.logger.warning("File format provided by user doesn't match")
                 err_msg = json.dumps({'Message': "OOPS! Email Scraper couldn't scrap your emails from uploaded file; looks like it doesn't match with appropriate format."})
                 abort(Response(err_msg, 400))
@@ -53,6 +55,8 @@ def upload_file():
 
 @app.route('/uploads/<name>')
 def download_file(name):
+    print("In the download directory")
+    print(app.config["UPLOAD_FOLDER"])
     return send_from_directory(app.config["UPLOAD_FOLDER"], name)
 app.add_url_rule(
     "/uploads/<name>", endpoint="download_file", build_only=True

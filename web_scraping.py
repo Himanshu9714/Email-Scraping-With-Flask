@@ -74,6 +74,7 @@ def remove_unnecessary_mails(placeholders, emails, domain_name):
 
 def write_json_to_csv(url_json_arr, upload_dir_path):
     result_xlsx = os.path.join(upload_dir_path, 'result.xlsx')
+    print("result path:", result_xlsx)
     all_url_email_lst = []
     for i in range(len(url_json_arr)):
         url_email_lst = []
@@ -104,6 +105,7 @@ def write_json_to_csv(url_json_arr, upload_dir_path):
             url_email_lst.append(url_dct['social_media'])
         all_url_email_lst.append(url_email_lst)
 
+    print("All list:", url_email_lst)
     with open(result_xlsx, 'w') as f:
         writerobj = writer(f)
         columns = ['domain_name', 'primary_mail', 'secondary_mail', 'other_mail', 'social_media']
