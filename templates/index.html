@@ -27,6 +27,29 @@
         style="color:darkgreen;">Refresh the page to upload new file for scrapping!</b><br>Happy Scraping :)<br></p>
     <a role="button" href="#" id="download" type="button" hidden=true
       style="text-decoration: none;"><button>Download</button></a>
+
+
+    <div class="starter-template">
+      <hr><br>
+      <br><br>
+      <div>
+        <h3>Task Status</h3>
+        <br>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Status</th>
+              <th>Result</th>
+            </tr>
+          </thead>
+          <tbody id="tasks">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
   </div>
 
   <script>
@@ -47,11 +70,16 @@
       $('form').submit(function () {
         event.preventDefault();
         var form_data = new FormData($('#upload-file')[0]);
+        console.log("Form Data:", form_data)
         $('#loading').show();
         $('#file').prop('disabled', true);
         $("#upload-file-btn").hide();
+        ajaxInProgress = true;
+        var params = {
+          
+        };
         $.ajax({
-          type: 'POST',
+          method: 'POST',
           url: '/',
           data: form_data,
           contentType: false,
@@ -74,16 +102,43 @@
               alert(error.Message)
             }
           }
-        }).done(function (response) {
-          if (!response.success) {
-            console.log(response.errors);
-          }
-          else {
-            console.log("Worked")
-          }
-        });;
+        })
+        .done((res) => {
+          res = JSON.parse(res)
+          getStatus(res.data.task_id);
+        })
+          .fail((err) => {
+            console.log(err);
+          });
       });
     });
+
+    function getStatus(taskID) {
+      $.ajax({
+        url: `/tasks/${taskID}`,
+        method: 'GET'
+      })
+        .done((res) => {
+          console.log("Get status",res)
+          const html = `
+      <tr>
+        <td>${res.data.task_id}</td>
+        <td>${res.data.task_status}</td>
+        <td>${res.data.task_result}</td>
+      </tr>`
+          $('#tasks').prepend(html);
+          const taskStatus = res.data.task_status;
+          console.log("Task status:", taskStatus)
+          if (taskStatus === 'finished' || taskStatus === 'failed') return false;
+          setTimeout(function () {
+            getStatus(res.data.task_id);
+          }, 1000);
+        })
+        .fail((err) => {
+          console.log(err);
+        });
+    }
   </script>
 </body>
+
 </html>

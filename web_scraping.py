@@ -8,6 +8,8 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 from csv import writer
 import os
+import concurrent.futures
+import urllib.request
 
 def validate(emails):
     valid_emails = set()
@@ -18,7 +20,7 @@ def validate(emails):
             if email:
                 valid_emails.add(email)
         except EmailNotValidError as e:
-            print(str(e))
+            pass
     return valid_emails
 
 def email_placeholder(soup, placeholders):
@@ -115,6 +117,31 @@ def write_json_to_csv(url_json_arr, upload_dir_path):
         f.close()
     return result_xlsx
 
+def scraped_url(url, scraped, headers, placeholders, about_emails, contact_emails, other_emails):
+    parts1 = urlsplit(url)
+    path = '{0.path}'.format(parts1)
+    scraped.add(url)
+    print(f"Crawling the URL {url}")
+    try:
+        response = requests.get(url, headers=headers)
+        soup1 = BeautifulSoup(response.content, 'lxml')
+        email_placeholder(soup1, placeholders)
+    except:
+        pass
+    
+    new_emails = set(re.findall(r"[a-zA-Z0-9\.\-\+\_]+@[a-zA-Z0-9\.\-\+\_]+\.[a-z]{2,5}", response.text, re.I))
+    if path.startswith('/about') and 'contact' not in path:
+        about_emails.update(new_emails)
+        about_emails = validate(list(about_emails))
+
+    elif 'contact' in path:
+        contact_emails.update(new_emails)
+        contact_emails = validate(list(contact_emails))
+
+    else:
+        other_emails.update(new_emails)
+        other_emails = validate(list(other_emails))
+
 def scraping_emails(list_of_urls, upload_dir_path):
     PREFIX = r'https?://(?:www\.)?'
     SITES = ['twitter.com/', 'youtube.com/',
@@ -180,38 +207,19 @@ def scraping_emails(list_of_urls, upload_dir_path):
                             unscraped.append(get_url)
             except: pass
 
-        while len(unscraped):
-            url = unscraped.popleft()  
-            print(f"After pop: {len(unscraped)}")
-            parts1 = urlsplit(url)
-            path = '{0.path}'.format(parts1)
-            scraped.add(url)
-    
-            print(f"Crawling the URL {url}")
-            try:
-                response = requests.get(url, headers=headers)
-                soup1 = BeautifulSoup(response.content, 'lxml')
-                email_placeholder(soup1, placeholders)
-            except Exception as e:
-                print(str(e))
-            
-            new_emails = set(re.findall(r"[a-zA-Z0-9\.\-\+\_]+@[a-zA-Z0-9\.\-\+\_]+\.[a-z]{2,5}", response.text, re.I))
-            if path.startswith('/about') and 'contact' not in path:
-                about_emails.update(new_emails)
-                about_emails = validate(list(about_emails))
+        with concurrent.futures.ThreadPoolExecutor(max_workers=len(unscraped)) as executor:
 
-            elif 'contact' in path:
-                contact_emails.update(new_emails)
-                contact_emails = validate(list(contact_emails))
-
-            else:
-                other_emails.update(new_emails)
-                other_emails = validate(list(other_emails))
+            while len(unscraped):
+                url = unscraped.popleft()  
+                print(f"After pop: {len(unscraped)}")
+                future_to_url = {executor.submit(scraped_url, url, scraped, headers, placeholders, about_emails, contact_emails, other_emails)}
+                print(f"Future to URL: {future_to_url}")
         
         emails['Primary'] = list(about_emails)
         emails['Secondary'] = list(contact_emails)
         emails['Others'] = list(other_emails)
         emails = remove_unnecessary_mails(placeholders, emails, domain_name)
+        print(emails)
 
         url_dct[domain_name] = emails
         url_dct['social_media'] = social_media
