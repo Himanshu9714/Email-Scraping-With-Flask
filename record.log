@@ -12992,3 +12992,545 @@ ValueError: Invalid attribute name: static/uploads/result.xlsx
 2022-01-27 18:38:55,041 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
 2022-01-27 18:38:55,237 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=170446): is_file, is_inode_meta_mod, is_modified
 2022-01-27 18:38:55,237 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-27 18:42:29,474 INFO rq.worker MainThread : Cleaning registries for queue: default
+2022-01-27 18:46:05,376 INFO rq.worker MainThread : Warm shut down requested
+2022-01-27 18:46:05,379 INFO rq.worker MainThread : Unsubscribing from channel rq:pubsub:3b3f0ba527b948889feadd7acede0a23
+2022-01-28 15:07:08,081 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-28 15:07:08,094 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:07:09,139 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:07:09,162 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:08:14,364 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4576153296", inode=854613, flags=11900, id=121370): is_coalesced, is_created, is_file, is_modified, is_renamed
+2022-01-28 15:08:14,364 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc", inode=854613, flags=10800, id=121371): is_file, is_renamed
+2022-01-28 15:08:14,364 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc", inode=780761, flags=10800, id=121372): is_file, is_renamed
+2022-01-28 15:08:14,364 DEBUG fsevents Thread-3 : queue_event <FileCreatedEvent: event_type=created, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4576153296', is_directory=False>
+2022-01-28 15:08:14,365 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:14,365 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4576153296', is_directory=False>
+2022-01-28 15:08:14,366 DEBUG fsevents Thread-3 : Destination event for rename is NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc", inode=854613, flags=10800, id=121371)
+2022-01-28 15:08:14,366 DEBUG fsevents Thread-3 : queue_event <FileMovedEvent: src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4576153296', dest_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc', is_directory=False>
+2022-01-28 15:08:14,366 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:14,367 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:14,367 DEBUG fsevents Thread-3 : queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc', is_directory=False>
+2022-01-28 15:08:14,367 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,433 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc.4840437840", inode=854615, flags=11900, id=121406): is_coalesced, is_created, is_file, is_modified, is_renamed
+2022-01-28 15:08:15,433 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc", inode=854615, flags=10800, id=121407): is_file, is_renamed
+2022-01-28 15:08:15,433 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc.4840655584", inode=854616, flags=11900, id=121416): is_coalesced, is_created, is_file, is_modified, is_renamed
+2022-01-28 15:08:15,433 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc", inode=854616, flags=10800, id=121417): is_file, is_renamed
+2022-01-28 15:08:15,433 DEBUG fsevents Thread-3 : queue_event <FileCreatedEvent: event_type=created, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc.4840437840', is_directory=False>
+2022-01-28 15:08:15,434 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,434 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc.4840437840', is_directory=False>
+2022-01-28 15:08:15,434 DEBUG fsevents Thread-3 : Destination event for rename is NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc", inode=854615, flags=10800, id=121407)
+2022-01-28 15:08:15,434 DEBUG fsevents Thread-3 : queue_event <FileMovedEvent: src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc.4840437840', dest_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/celery_utils.cpython-39.pyc', is_directory=False>
+2022-01-28 15:08:15,434 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,435 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,435 DEBUG fsevents Thread-3 : queue_event <FileCreatedEvent: event_type=created, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc.4840655584', is_directory=False>
+2022-01-28 15:08:15,435 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,435 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc.4840655584', is_directory=False>
+2022-01-28 15:08:15,435 DEBUG fsevents Thread-3 : Destination event for rename is NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc", inode=854616, flags=10800, id=121417)
+2022-01-28 15:08:15,436 DEBUG fsevents Thread-3 : queue_event <FileMovedEvent: src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc.4840655584', dest_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/db.cpython-39.pyc', is_directory=False>
+2022-01-28 15:08:15,436 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,436 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:08:15,449 INFO flower.command MainThread : Visit me at http://localhost:5555
+2022-01-28 15:08:15,458 INFO flower.command MainThread : Broker: redis://localhost:6379//
+2022-01-28 15:08:15,461 INFO flower.command MainThread : Registered tasks: 
+['celery.accumulate',
+ 'celery.backend_cleanup',
+ 'celery.chain',
+ 'celery.chord',
+ 'celery.chord_unlock',
+ 'celery.chunks',
+ 'celery.group',
+ 'celery.map',
+ 'celery.starmap',
+ 'main.scrap_emails']
+2022-01-28 15:08:15,483 INFO kombu.mixins Thread-1 : Connected to redis://localhost:6379//
+2022-01-28 15:08:16,537 WARNING flower.inspector ThreadPoolExecutor-0_6 : Inspect method revoked failed
+2022-01-28 15:08:16,538 WARNING flower.inspector ThreadPoolExecutor-0_2 : Inspect method registered failed
+2022-01-28 15:08:16,539 WARNING flower.inspector ThreadPoolExecutor-0_3 : Inspect method scheduled failed
+2022-01-28 15:08:16,539 WARNING flower.inspector ThreadPoolExecutor-0_1 : Inspect method active_queues failed
+2022-01-28 15:08:16,540 WARNING flower.inspector ThreadPoolExecutor-0_4 : Inspect method active failed
+2022-01-28 15:08:16,541 WARNING flower.inspector ThreadPoolExecutor-0_5 : Inspect method reserved failed
+2022-01-28 15:08:16,541 WARNING flower.inspector ThreadPoolExecutor-0_0 : Inspect method stats failed
+2022-01-28 15:08:16,542 WARNING flower.inspector ThreadPoolExecutor-0_7 : Inspect method conf failed
+2022-01-28 15:09:19,084 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=10100, id=123337): is_created, is_file
+2022-01-28 15:09:19,084 DEBUG fsevents Thread-3 : queue_event <FileCreatedEvent: event_type=created, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:09:19,084 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask', is_directory=True>
+2022-01-28 15:09:21,386 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=10500, id=123391): is_created, is_file, is_inode_meta_mod
+2022-01-28 15:09:21,386 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:09:21,417 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11500, id=123397): is_created, is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:09:21,417 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:09:35,245 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=123602): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:09:35,246 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:09:35,246 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:09:36,446 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:09:37,925 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:09:37,935 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:09:43,343 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4473065168", inode=854767, flags=11900, id=123681): is_coalesced, is_created, is_file, is_modified, is_renamed
+2022-01-28 15:09:43,344 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc", inode=854767, flags=10800, id=123682): is_file, is_renamed
+2022-01-28 15:09:43,344 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc", inode=854613, flags=10800, id=123683): is_file, is_renamed
+2022-01-28 15:09:43,344 DEBUG fsevents Thread-4 : queue_event <FileCreatedEvent: event_type=created, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4473065168', is_directory=False>
+2022-01-28 15:09:43,344 DEBUG fsevents Thread-4 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:09:43,345 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4473065168', is_directory=False>
+2022-01-28 15:09:43,345 DEBUG fsevents Thread-4 : Destination event for rename is NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc", inode=854767, flags=10800, id=123682)
+2022-01-28 15:09:43,346 DEBUG fsevents Thread-4 : queue_event <FileMovedEvent: src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc.4473065168', dest_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc', is_directory=False>
+2022-01-28 15:09:43,346 DEBUG fsevents Thread-4 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:09:43,346 DEBUG fsevents Thread-4 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:09:43,346 DEBUG fsevents Thread-4 : queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__/main.cpython-39.pyc', is_directory=False>
+2022-01-28 15:09:43,346 DEBUG fsevents Thread-4 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/__pycache__', is_directory=True>
+2022-01-28 15:10:25,592 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:10:25] "GET / HTTP/1.1" 200 -
+2022-01-28 15:10:25,636 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:10:25] "GET /static/loading.gif HTTP/1.1" 200 -
+2022-01-28 15:10:33,367 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:10:33] "GET / HTTP/1.1" 200 -
+2022-01-28 15:10:33,393 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:10:33] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:10:40,076 INFO main Thread-10 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:10:40,082 INFO main Thread-10 (process_request_thread) : Checking File Extension
+2022-01-28 15:10:40,104 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=125573): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:10:40,105 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:10:40,610 INFO main Thread-10 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:10:40,611 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:10:40] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:10:40,637 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:10:40] "[35m[1mGET /tasks/a6264953-2777-4759-9051-2fe8f6bd9f3a HTTP/1.1[0m" 500 -
+2022-01-28 15:10:44,861 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=125934): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:10:44,862 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:11:08,953 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=10400, id=126200): is_file, is_inode_meta_mod
+2022-01-28 15:11:08,953 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:11:08,954 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:11:08,965 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=126203): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:11:08,965 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:11:08,966 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:11:10,173 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:11:11,647 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:11:11,653 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:11:16,566 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=126277): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:11:16,566 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:11:16,567 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:11:17,757 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:11:18,667 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:11:18,673 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:11:21,020 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:21] "[33mGET /process/name HTTP/1.1[0m" 404 -
+2022-01-28 15:11:21,212 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:21] "[33mGET /process/name HTTP/1.1[0m" 404 -
+2022-01-28 15:11:21,345 INFO werkzeug Thread-8 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:21] "[33mGET /process/name HTTP/1.1[0m" 404 -
+2022-01-28 15:11:21,490 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:21] "[33mGET /process/name HTTP/1.1[0m" 404 -
+2022-01-28 15:11:24,425 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:24] "GET / HTTP/1.1" 200 -
+2022-01-28 15:11:24,465 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:24] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:11:26,171 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:26] "GET / HTTP/1.1" 200 -
+2022-01-28 15:11:26,194 INFO werkzeug Thread-13 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:26] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:11:30,237 INFO main Thread-14 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:11:30,238 INFO main Thread-14 (process_request_thread) : Checking File Extension
+2022-01-28 15:11:30,250 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=126782): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:11:30,250 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:11:30,615 INFO main Thread-14 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:11:30,616 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:30] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:11:30,634 INFO werkzeug Thread-15 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:30] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:31,648 INFO werkzeug Thread-16 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:31] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:32,658 INFO werkzeug Thread-17 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:32] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:33,671 INFO werkzeug Thread-18 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:33] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:34,684 INFO werkzeug Thread-19 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:34] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:35,703 INFO werkzeug Thread-20 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:35] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:35,963 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=126952): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:11:35,963 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:11:36,719 INFO werkzeug Thread-21 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:36] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:37,730 INFO werkzeug Thread-22 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:37] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:38,741 INFO werkzeug Thread-23 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:38] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:39,754 INFO werkzeug Thread-24 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:39] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:40,765 INFO werkzeug Thread-25 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:40] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:41,775 INFO werkzeug Thread-26 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:41] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:42,785 INFO werkzeug Thread-27 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:42] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:43,797 INFO werkzeug Thread-28 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:43] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:44,807 INFO werkzeug Thread-29 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:44] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:45,818 INFO werkzeug Thread-30 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:45] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:46,828 INFO werkzeug Thread-31 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:46] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:47,839 INFO werkzeug Thread-32 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:47] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:48,849 INFO werkzeug Thread-33 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:48] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:49,864 INFO werkzeug Thread-34 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:49] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:50,877 INFO werkzeug Thread-35 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:50] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:51,891 INFO werkzeug Thread-36 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:51] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:52,906 INFO werkzeug Thread-37 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:52] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:53,918 INFO werkzeug Thread-38 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:53] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:54,929 INFO werkzeug Thread-39 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:54] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:55,940 INFO werkzeug Thread-40 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:55] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:56,949 INFO werkzeug Thread-41 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:56] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:57,963 INFO werkzeug Thread-42 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:57] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:58,974 INFO werkzeug Thread-43 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:58] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:11:59,984 INFO werkzeug Thread-44 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:11:59] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:00,996 INFO werkzeug Thread-45 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:00] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:02,006 INFO werkzeug Thread-46 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:02] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:03,016 INFO werkzeug Thread-47 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:03] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:04,031 INFO werkzeug Thread-48 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:04] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:04,575 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=10400, id=127473): is_file, is_inode_meta_mod
+2022-01-28 15:12:04,576 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:12:04,586 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=127476): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:04,586 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:12:04,798 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=127486): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:04,798 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:12:04,822 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=127489): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:04,822 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:12:04,966 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=127501): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:04,966 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:12:05,040 INFO werkzeug Thread-49 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:05] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:06,055 INFO werkzeug Thread-50 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:06] "GET /tasks/6b2837dc-e9e1-46cb-873f-1233b10654b2 HTTP/1.1" 200 -
+2022-01-28 15:12:06,818 INFO werkzeug Thread-51 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:06] "GET / HTTP/1.1" 200 -
+2022-01-28 15:12:06,848 INFO werkzeug Thread-52 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:06] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:12:11,628 INFO main Thread-53 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:12:11,629 INFO main Thread-53 (process_request_thread) : Checking File Extension
+2022-01-28 15:12:11,641 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=127659): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:11,643 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:12:11,646 INFO main Thread-53 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:12:11,646 INFO werkzeug Thread-53 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:11] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:12:11,661 INFO werkzeug Thread-54 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:11] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:12,674 INFO werkzeug Thread-55 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:12] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:13,686 INFO werkzeug Thread-56 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:13] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:14,698 INFO werkzeug Thread-57 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:14] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:15,710 INFO werkzeug Thread-58 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:15] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:16,723 INFO werkzeug Thread-59 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:16] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:17,735 INFO werkzeug Thread-60 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:17] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:18,734 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=127870): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:18,734 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:12:18,747 INFO werkzeug Thread-61 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:18] "GET /tasks/b5551e30-8576-4e14-9c6c-2516d02eab8f HTTP/1.1" 200 -
+2022-01-28 15:12:22,159 INFO werkzeug Thread-62 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:22] "GET / HTTP/1.1" 200 -
+2022-01-28 15:12:22,193 INFO werkzeug Thread-63 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:22] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:12:26,060 INFO main Thread-64 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:12:26,062 INFO main Thread-64 (process_request_thread) : Checking File Extension
+2022-01-28 15:12:26,075 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_3.xlsx", inode=760727, flags=11400, id=127962): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:26,075 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_3.xlsx', is_directory=False>
+2022-01-28 15:12:26,076 INFO main Thread-64 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:12:26,077 INFO werkzeug Thread-64 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:26] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:12:26,091 INFO werkzeug Thread-65 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:26] "GET /tasks/52ea0b82-4712-417d-b739-7d2f93cf1835 HTTP/1.1" 200 -
+2022-01-28 15:12:27,104 INFO werkzeug Thread-66 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:27] "GET /tasks/52ea0b82-4712-417d-b739-7d2f93cf1835 HTTP/1.1" 200 -
+2022-01-28 15:12:28,120 INFO werkzeug Thread-67 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:28] "GET /tasks/52ea0b82-4712-417d-b739-7d2f93cf1835 HTTP/1.1" 200 -
+2022-01-28 15:12:28,453 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=128038): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:12:28,453 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:12:29,132 INFO werkzeug Thread-68 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:29] "GET /tasks/52ea0b82-4712-417d-b739-7d2f93cf1835 HTTP/1.1" 200 -
+2022-01-28 15:12:31,058 INFO werkzeug Thread-69 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:12:31] "GET /uploads/result.xlsx HTTP/1.1" 200 -
+2022-01-28 15:13:23,671 INFO werkzeug Thread-70 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:23] "GET / HTTP/1.1" 200 -
+2022-01-28 15:13:23,709 INFO werkzeug Thread-71 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:23] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:13:28,345 INFO main Thread-72 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:13:28,347 INFO main Thread-72 (process_request_thread) : Checking File Extension
+2022-01-28 15:13:28,362 INFO main Thread-72 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:13:28,363 INFO werkzeug Thread-72 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:28] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:13:28,370 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=139771): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:13:28,370 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:13:28,380 INFO werkzeug Thread-73 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:28] "GET /tasks/a9e3537d-0b11-4cf8-9acb-af9566a594a3 HTTP/1.1" 200 -
+2022-01-28 15:13:29,395 INFO werkzeug Thread-74 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:29] "GET /tasks/a9e3537d-0b11-4cf8-9acb-af9566a594a3 HTTP/1.1" 200 -
+2022-01-28 15:13:30,411 INFO werkzeug Thread-75 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:30] "GET /tasks/a9e3537d-0b11-4cf8-9acb-af9566a594a3 HTTP/1.1" 200 -
+2022-01-28 15:13:31,423 INFO werkzeug Thread-76 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:31] "GET /tasks/a9e3537d-0b11-4cf8-9acb-af9566a594a3 HTTP/1.1" 200 -
+2022-01-28 15:13:32,434 INFO werkzeug Thread-77 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:32] "GET /tasks/a9e3537d-0b11-4cf8-9acb-af9566a594a3 HTTP/1.1" 200 -
+2022-01-28 15:13:32,546 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=139983): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:13:32,547 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:13:33,444 INFO werkzeug Thread-78 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:33] "GET /tasks/a9e3537d-0b11-4cf8-9acb-af9566a594a3 HTTP/1.1" 200 -
+2022-01-28 15:13:36,578 INFO werkzeug Thread-79 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:13:36] "GET /uploads/result.xlsx HTTP/1.1" 200 -
+2022-01-28 15:14:46,857 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=141022): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:46,858 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:14:47,062 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=141038): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:47,062 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:14:47,093 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=141041): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:47,093 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:14:47,238 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=141053): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:47,239 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:14:47,422 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=141056): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:47,422 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:14:47,481 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html", inode=759063, flags=11400, id=141059): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:47,482 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/templates/index.html', is_directory=False>
+2022-01-28 15:14:49,938 INFO werkzeug Thread-81 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:49] "GET / HTTP/1.1" 200 -
+2022-01-28 15:14:50,046 INFO werkzeug Thread-82 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:50] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:14:54,868 INFO main Thread-83 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:14:54,870 INFO main Thread-83 (process_request_thread) : Checking File Extension
+2022-01-28 15:14:54,882 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_3.xlsx", inode=760727, flags=11400, id=141201): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:14:54,882 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_3.xlsx', is_directory=False>
+2022-01-28 15:14:54,891 INFO main Thread-83 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:14:54,891 INFO werkzeug Thread-83 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:54] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:14:54,906 INFO werkzeug Thread-84 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:54] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:14:55,919 INFO werkzeug Thread-85 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:55] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:14:56,931 INFO werkzeug Thread-86 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:56] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:14:57,947 INFO werkzeug Thread-87 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:57] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:14:58,959 INFO werkzeug Thread-88 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:58] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:14:59,971 INFO werkzeug Thread-89 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:14:59] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:15:00,972 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=141374): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:15:00,972 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:15:00,985 INFO werkzeug Thread-90 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:00] "GET /tasks/af5542cc-92b7-4a68-9bf3-6793997d2c7f HTTP/1.1" 200 -
+2022-01-28 15:15:13,231 INFO werkzeug Thread-91 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:13] "GET /uploads/result.xlsx HTTP/1.1" 200 -
+2022-01-28 15:15:42,156 INFO werkzeug Thread-92 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:42] "GET / HTTP/1.1" 200 -
+2022-01-28 15:15:42,176 INFO werkzeug Thread-93 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:42] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:15:46,381 INFO main Thread-94 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:15:46,382 INFO main Thread-94 (process_request_thread) : Checking File Extension
+2022-01-28 15:15:46,399 INFO main Thread-94 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:15:46,400 INFO werkzeug Thread-94 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:46] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:15:46,404 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=142574): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:15:46,404 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:15:46,413 INFO werkzeug Thread-95 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:46] "GET /tasks/a4c45682-56c7-45f0-8f7a-f702d9d705ae HTTP/1.1" 200 -
+2022-01-28 15:15:47,426 INFO werkzeug Thread-96 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:47] "GET /tasks/a4c45682-56c7-45f0-8f7a-f702d9d705ae HTTP/1.1" 200 -
+2022-01-28 15:15:48,440 INFO werkzeug Thread-97 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:48] "GET /tasks/a4c45682-56c7-45f0-8f7a-f702d9d705ae HTTP/1.1" 200 -
+2022-01-28 15:15:49,452 INFO werkzeug Thread-98 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:49] "GET /tasks/a4c45682-56c7-45f0-8f7a-f702d9d705ae HTTP/1.1" 200 -
+2022-01-28 15:15:50,466 INFO werkzeug Thread-99 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:50] "GET /tasks/a4c45682-56c7-45f0-8f7a-f702d9d705ae HTTP/1.1" 200 -
+2022-01-28 15:15:51,301 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=142743): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:15:51,301 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:15:51,479 INFO werkzeug Thread-100 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:51] "GET /tasks/a4c45682-56c7-45f0-8f7a-f702d9d705ae HTTP/1.1" 200 -
+2022-01-28 15:15:54,612 INFO werkzeug Thread-101 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:15:54] "GET /uploads/result.xlsx HTTP/1.1" 200 -
+2022-01-28 15:16:21,461 INFO werkzeug Thread-102 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:16:21] "GET / HTTP/1.1" 200 -
+2022-01-28 15:16:21,496 INFO werkzeug Thread-103 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:16:21] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:18:30,546 INFO werkzeug Thread-104 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:18:30] "GET / HTTP/1.1" 200 -
+2022-01-28 15:18:30,567 INFO werkzeug Thread-105 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:18:30] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:19:00,771 INFO werkzeug Thread-106 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:00] "GET / HTTP/1.1" 200 -
+2022-01-28 15:19:00,794 INFO werkzeug Thread-107 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:00] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:19:08,539 INFO main Thread-108 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:19:08,540 INFO main Thread-108 (process_request_thread) : Checking File Extension
+2022-01-28 15:19:08,556 INFO main Thread-108 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:19:08,557 INFO werkzeug Thread-108 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:08] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:19:08,562 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=144877): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:19:08,562 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:19:08,569 INFO werkzeug Thread-109 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:08] "GET /tasks/151ec4b1-7ec3-407c-bc97-82c11bec76b8 HTTP/1.1" 200 -
+2022-01-28 15:19:09,582 INFO werkzeug Thread-110 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:09] "GET /tasks/151ec4b1-7ec3-407c-bc97-82c11bec76b8 HTTP/1.1" 200 -
+2022-01-28 15:19:10,599 INFO werkzeug Thread-111 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:10] "GET /tasks/151ec4b1-7ec3-407c-bc97-82c11bec76b8 HTTP/1.1" 200 -
+2022-01-28 15:19:11,243 INFO werkzeug Thread-112 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:11] "GET / HTTP/1.1" 200 -
+2022-01-28 15:19:11,275 INFO werkzeug Thread-113 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:11] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:19:19,251 INFO werkzeug Thread-114 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:19] "GET / HTTP/1.1" 200 -
+2022-01-28 15:19:19,289 INFO werkzeug Thread-115 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:19] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:19:19,827 INFO werkzeug Thread-116 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:19] "GET / HTTP/1.1" 200 -
+2022-01-28 15:19:19,853 INFO werkzeug Thread-117 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:19] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:19:20,419 INFO werkzeug Thread-118 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:20] "GET / HTTP/1.1" 200 -
+2022-01-28 15:19:20,439 INFO werkzeug Thread-119 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:20] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:19:21,520 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=145240): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:19:21,521 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:19:24,467 INFO main Thread-120 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:19:24,469 INFO main Thread-120 (process_request_thread) : Checking File Extension
+2022-01-28 15:19:24,480 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx", inode=760456, flags=11400, id=145304): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:19:24,483 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_1.xlsx', is_directory=False>
+2022-01-28 15:19:24,487 INFO main Thread-120 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:19:24,487 INFO werkzeug Thread-120 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:24] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:19:24,499 INFO werkzeug Thread-121 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:24] "GET /tasks/7763852f-d5af-4b53-9773-34c20db5cfd4 HTTP/1.1" 200 -
+2022-01-28 15:19:25,513 INFO werkzeug Thread-122 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:25] "GET /tasks/7763852f-d5af-4b53-9773-34c20db5cfd4 HTTP/1.1" 200 -
+2022-01-28 15:19:26,526 INFO werkzeug Thread-123 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:26] "GET /tasks/7763852f-d5af-4b53-9773-34c20db5cfd4 HTTP/1.1" 200 -
+2022-01-28 15:19:27,539 INFO werkzeug Thread-124 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:27] "GET /tasks/7763852f-d5af-4b53-9773-34c20db5cfd4 HTTP/1.1" 200 -
+2022-01-28 15:19:28,544 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx", inode=759394, flags=11400, id=145396): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:19:28,544 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/result.xlsx', is_directory=False>
+2022-01-28 15:19:28,550 INFO werkzeug Thread-125 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:28] "GET /tasks/7763852f-d5af-4b53-9773-34c20db5cfd4 HTTP/1.1" 200 -
+2022-01-28 15:19:52,020 INFO werkzeug Thread-126 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:52] "GET / HTTP/1.1" 200 -
+2022-01-28 15:19:52,042 INFO werkzeug Thread-127 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:19:52] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:20:01,492 INFO main Thread-128 (process_request_thread) : Getting file from request object if exist
+2022-01-28 15:20:01,494 INFO main Thread-128 (process_request_thread) : Checking File Extension
+2022-01-28 15:20:01,527 INFO main Thread-128 (process_request_thread) : Emails scrapped Successfully!
+2022-01-28 15:20:01,528 INFO werkzeug Thread-128 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:01] "[35m[1mPOST / HTTP/1.1[0m" 202 -
+2022-01-28 15:20:01,534 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_2.xlsx", inode=772593, flags=11400, id=145670): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:20:01,534 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/static/uploads/myfile_2.xlsx', is_directory=False>
+2022-01-28 15:20:01,544 INFO werkzeug Thread-129 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:01] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:02,562 INFO werkzeug Thread-130 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:02] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:03,574 INFO werkzeug Thread-131 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:03] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:04,587 INFO werkzeug Thread-132 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:04] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:05,598 INFO werkzeug Thread-133 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:05] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:06,614 INFO werkzeug Thread-134 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:06] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:07,627 INFO werkzeug Thread-135 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:07] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:08,639 INFO werkzeug Thread-136 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:08] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:09,650 INFO werkzeug Thread-137 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:09] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:10,667 INFO werkzeug Thread-138 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:10] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:11,682 INFO werkzeug Thread-139 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:11] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:12,699 INFO werkzeug Thread-140 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:12] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:13,715 INFO werkzeug Thread-141 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:13] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:14,735 INFO werkzeug Thread-142 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:14] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:15,749 INFO werkzeug Thread-143 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:15] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:16,764 INFO werkzeug Thread-144 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:16] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:17,778 INFO werkzeug Thread-145 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:17] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:18,794 INFO werkzeug Thread-146 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:18] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:19,808 INFO werkzeug Thread-147 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:19] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:20,830 INFO werkzeug Thread-148 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:20] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:21,843 INFO werkzeug Thread-149 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:21] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:22,858 INFO werkzeug Thread-150 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:22] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:23,873 INFO werkzeug Thread-151 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:23] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:24,887 INFO werkzeug Thread-152 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:24] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:25,901 INFO werkzeug Thread-153 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:25] "GET /tasks/f5047500-5180-4c3f-bdae-62de72354e1d HTTP/1.1" 200 -
+2022-01-28 15:20:26,151 INFO werkzeug Thread-154 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:26] "GET / HTTP/1.1" 200 -
+2022-01-28 15:20:26,199 INFO werkzeug Thread-155 (process_request_thread) : 127.0.0.1 - - [28/Jan/2022 15:20:26] "[36mGET /static/loading.gif HTTP/1.1[0m" 304 -
+2022-01-28 15:20:35,496 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2022-01-28 15:20:35,507 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:20:36,476 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:20:36,483 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:25:52,475 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=147946): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:25:52,476 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:25:52,477 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:25:53,684 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:25:54,758 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:25:54,777 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:26:02,952 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=148049): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:26:02,952 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:26:02,953 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:26:04,130 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:26:05,241 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:26:05,250 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:31:00,849 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149341): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:00,849 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:00,850 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:01,072 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149344): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:01,072 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:01,073 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:01,101 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149347): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:01,101 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:01,101 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:01,250 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149359): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:01,250 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:01,251 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:01,434 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149362): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:01,434 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:01,434 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:01,464 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149365): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:01,464 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:01,464 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:01,594 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149368): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:31:01,594 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:31:01,595 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:31:02,762 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:31:03,598 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:31:03,605 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:32:21,310 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=10400, id=149782): is_file, is_inode_meta_mod
+2022-01-28 15:32:21,310 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:21,311 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:21,319 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149788): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:21,319 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:21,320 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:21,562 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149801): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:21,562 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:21,562 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:21,593 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149804): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:21,593 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:21,593 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:22,780 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:32:23,625 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:32:23,631 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:32:25,084 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149822): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:25,084 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:25,085 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:25,295 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149828): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:25,295 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:25,296 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:25,338 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149837): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:25,338 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:25,339 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:25,505 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149840): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:25,506 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:25,506 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:25,536 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=149843): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:25,536 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:32:25,536 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:32:26,700 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:32:27,539 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:32:27,545 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:32:39,891 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=10400, id=149905): is_file, is_inode_meta_mod
+2022-01-28 15:32:39,891 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:39,918 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=149908): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:39,918 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:40,138 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=149918): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:40,138 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:40,167 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=149921): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:40,167 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:40,386 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=149930): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:40,386 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:40,414 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=149933): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:40,414 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:49,946 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150089): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:49,946 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:50,044 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150092): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:50,044 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:50,202 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150102): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:50,202 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:50,231 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150105): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:50,231 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:32:50,425 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150117): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:32:50,426 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,130 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150463): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,130 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,379 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150472): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,379 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,408 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150475): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,408 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,578 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150484): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,579 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,607 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150487): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,607 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,770 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150490): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,770 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,799 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150493): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,800 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,962 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150496): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,962 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:33:24,975 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=150499): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:33:24,975 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:34:19,329 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql", inode=854741, flags=11400, id=151966): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:34:19,329 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/schema.sql', is_directory=False>
+2022-01-28 15:34:57,682 DEBUG fsevents Thread-4 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152310): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:34:57,682 DEBUG fsevents Thread-4 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:34:57,683 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:34:58,849 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:34:59,702 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:34:59,708 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:35:17,443 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=10400, id=152447): is_file, is_inode_meta_mod
+2022-01-28 15:35:17,443 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:17,444 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:17,453 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152450): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:17,453 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:17,454 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:17,655 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152470): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:17,656 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:17,656 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:17,817 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152476): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:17,817 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:17,818 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:17,838 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152482): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:17,839 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:17,839 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:19,010 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:35:19,849 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:35:19,855 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:35:26,775 DEBUG fsevents Thread-5 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152560): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:26,775 DEBUG fsevents Thread-5 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:26,776 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:27,951 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:35:28,846 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:35:28,852 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:35:31,848 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152593): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:31,848 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:31,849 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:31,868 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=152596): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:35:31,869 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:35:31,869 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:35:33,041 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:35:33,932 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:35:33,938 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:36:29,618 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153138): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:29,619 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:29,620 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:29,855 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153148): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:29,855 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:29,855 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:29,877 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153151): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:29,878 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:29,878 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:30,048 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153163): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:30,049 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:30,049 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:31,231 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:36:32,387 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:36:32,395 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:36:34,200 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153211): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:34,200 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:34,201 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:34,215 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153220): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:34,216 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:34,216 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:34,408 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153223): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:34,408 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:34,408 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:34,430 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py", inode=759057, flags=11400, id=153226): is_file, is_inode_meta_mod, is_modified
+2022-01-28 15:36:34,430 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', is_directory=False>
+2022-01-28 15:36:34,431 INFO werkzeug Thread-1 :  * Detected change in '/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/main.py', reloading
+2022-01-28 15:36:35,590 INFO werkzeug MainThread :  * Restarting with watchdog (fsevents)
+2022-01-28 15:36:36,425 WARNING werkzeug MainThread :  * Debugger is active!
+2022-01-28 15:36:36,431 INFO werkzeug MainThread :  * Debugger PIN: 111-368-733
+2022-01-28 15:38:27,007 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/record.log", inode=759058, flags=11000, id=154654): is_file, is_modified
+2022-01-28 15:38:27,008 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/record.log', is_directory=False>
+2022-01-28 15:40:57,075 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index.lock", inode=856730, flags=11900, id=157908): is_coalesced, is_created, is_file, is_modified, is_renamed
+2022-01-28 15:40:57,076 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index", inode=856730, flags=10800, id=157909): is_file, is_renamed
+2022-01-28 15:40:57,076 DEBUG fsevents Thread-3 : NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index", inode=788709, flags=10800, id=157910): is_file, is_renamed
+2022-01-28 15:40:57,076 DEBUG fsevents Thread-3 : queue_event <FileCreatedEvent: event_type=created, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index.lock', is_directory=False>
+2022-01-28 15:40:57,076 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git', is_directory=True>
+2022-01-28 15:40:57,077 DEBUG fsevents Thread-3 : queue_event <FileModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index.lock', is_directory=False>
+2022-01-28 15:40:57,077 DEBUG fsevents Thread-3 : Destination event for rename is NativeEvent(path="/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index", inode=856730, flags=10800, id=157909)
+2022-01-28 15:40:57,077 DEBUG fsevents Thread-3 : queue_event <FileMovedEvent: src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index.lock', dest_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index', is_directory=False>
+2022-01-28 15:40:57,078 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git', is_directory=True>
+2022-01-28 15:40:57,078 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git', is_directory=True>
+2022-01-28 15:40:57,078 DEBUG fsevents Thread-3 : queue_event <FileDeletedEvent: event_type=deleted, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git/index', is_directory=False>
+2022-01-28 15:40:57,078 DEBUG fsevents Thread-3 : queue_event <DirModifiedEvent: event_type=modified, src_path='/Users/mac/Documents/337a1bemail/Email-Scraping-With-Flask/.git', is_directory=True>

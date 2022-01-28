@@ -1,4 +1,3 @@
-from venv import create
 from flask import Flask, flash, jsonify, render_template, request, redirect, url_for, abort, Response
 from werkzeug.utils import secure_filename
 import os
@@ -8,30 +7,33 @@ from web_scraping import scraping_emails
 import json
 import logging
 import redis
-from rq import Queue, Connection, Worker
-from flask.cli import FlaskGroup
+from celery_utils import make_celery
+import db
+from db import get_db
 
-
-
-# basedir = os.path.abspath(os.path.dirname(__file__))
 UPLOAD_FOLDER = 'static/uploads'
 ALLOWED_EXTENSIONS = {'xlsx'}
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = '427c64d1e8e2d5c13bff0beeb588131a'
-app.config['REDIS_URL'] = 'redis://localhost:6379/0'
-app.config['QUEUES'] = ["default"]
+app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/'
+app.config['CELERY_BACKEND'] = 'redis://localhost:6379/'
+app.config.from_mapping(
+        SECRET_KEY='dev',
+        DATABASE=os.path.join(app.instance_path, 'celerydb.sqlite'),)
+try:
+    os.makedirs(app.instance_path)
+except OSError:
+    pass
 
-@app.cli.command("run_worker")
-def run_worker():
-    print("This is worker function")
-    redis_url = app.config["REDIS_URL"]
-    redis_connection = redis.from_url(redis_url)
-    with Connection(redis_connection):
-        worker = Worker(app.config["QUEUES"])
-        worker.work()
+db.init_app(app)
+celery = make_celery(app)
 
 logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
+
+@celery.task(name='main.scrap_emails')
+def scrap_emails(list_of_urls):
+    scraping_emails(list_of_urls, app.config['UPLOAD_FOLDER'])
 
 def allowed_file(filename):
     app.logger.info("Checking File Extension")
@@ -47,7 +49,6 @@ def upload_file():
             return redirect(request.url)
 
         file = request.files['file']
-        print("File name form:", file.filename)
         if file.filename == '':
             flash('No selected file')
             return redirect(request.url)
@@ -59,17 +60,15 @@ def upload_file():
             print(file_to_process)
 
             try:
-                with Connection(redis.from_url(app.config['REDIS_URL'])):
-                    q = Queue()
-                    df = pd.read_excel(file_to_process,engine='openpyxl',dtype=object,header=None)
-                    l = df.values.tolist()
-                    res = list(map(''.join, l))
-                    task = q.enqueue(scraping_emails(res, app.config['UPLOAD_FOLDER']))
-                    print(f"\n\nThis is task: {task}\nTask id: {task.get_id()}")
+                df = pd.read_excel(file_to_process,engine='openpyxl',dtype=object,header=None)
+                l = df.values.tolist()
+                res = list(map(''.join, l))
+                task = scrap_emails.delay(res)
+                print(f"\n\nThis is task: {task}\nTask id: {task.id}")
                 response_obj = {
                     "status": "success",
                     "data": {
-                        "task_id": task.get_id()
+                        "task_id": task.id
                     }
                 }
                 app.logger.info("Emails scrapped Successfully!")
@@ -79,7 +78,6 @@ def upload_file():
                 app.logger.warning("File format provided by user doesn't match")
                 err_msg = json.dumps({'Message': "OOPS! Email Scraper couldn't scrap your emails from uploaded file; looks like it doesn't match with appropriate format."})
                 abort(Response(err_msg, 400))
-            # return jsonify({"path": filename})
     return render_template('index.html')
 
 @app.route('/uploads/<name>')
@@ -87,24 +85,27 @@ def download_file(name):
     print("In the download directory")
     print(app.config["UPLOAD_FOLDER"])
     return send_from_directory(app.config["UPLOAD_FOLDER"], name)
+    
 app.add_url_rule(
     "/uploads/<name>", endpoint="download_file", build_only=True
 )
 
 @app.route("/tasks/<task_id>", methods=["GET"])
 def get_status(task_id):
-    with Connection(redis.from_url(app.config["REDIS_URL"])):
-        q = Queue()
-        task = q.fetch_job(task_id)
+    db = get_db()
+    task = scrap_emails.AsyncResult(task_id)
+    print("Task name in tasks:", task)
     if task:
         response_object = {
             "status": "success",
             "data": {
-                "task_id": task.get_id(),
-                "task_status": task.get_status(),
+                "task_id": task.id,
+                "task_status": task.status,
                 "task_result": task.result,
             },
         }
+        db.execute('INSERT INTO result (task_id, task_status) VALUES (?, ?)', (task.id, task.status))
+        db.commit()
     else:
         response_object = {"status": "error"}
     return jsonify(response_object)

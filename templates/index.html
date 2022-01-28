@@ -88,11 +88,7 @@
           processData: false,
           success: function (data) {
             console.log('Success!', data);
-            var downloadlink = "uploads/result.xlsx"
-            $('#loading').hide();
-            $('#download').show();
-            $("#download").attr("href", downloadlink);
-            $("#para").show();
+            
           },
           statusCode: {
             400: function (response) {
@@ -129,7 +125,14 @@
           $('#tasks').prepend(html);
           const taskStatus = res.data.task_status;
           console.log("Task status:", taskStatus)
-          if (taskStatus === 'finished' || taskStatus === 'failed') return false;
+          if (taskStatus === 'SUCCESS' || taskStatus === 'FAILED'){
+            var downloadlink = "uploads/result.xlsx"
+            $('#loading').hide();
+            $('#download').show();
+            $("#download").attr("href", downloadlink);
+            $("#para").show();
+            return false;
+          }
           setTimeout(function () {
             getStatus(res.data.task_id);
           }, 1000);
