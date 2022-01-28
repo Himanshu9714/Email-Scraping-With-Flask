@@ -92,7 +92,6 @@ app.add_url_rule(
 
 @app.route("/tasks/<task_id>", methods=["GET"])
 def get_status(task_id):
-    db = get_db()
     task = scrap_emails.AsyncResult(task_id)
     print("Task name in tasks:", task)
     if task:
@@ -104,8 +103,6 @@ def get_status(task_id):
                 "task_result": task.result,
             },
         }
-        db.execute('INSERT INTO result (task_id, task_status) VALUES (?, ?)', (task.id, task.status))
-        db.commit()
     else:
         response_object = {"status": "error"}
     return jsonify(response_object)
