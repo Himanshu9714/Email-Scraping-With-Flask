@@ -109,6 +109,8 @@ def write_json_to_csv(url_json_arr, upload_dir_path):
 
     print("All list:", url_email_lst)
     with open(result_xlsx, 'w') as f:
+        print("File written successfully!")
+        print("File path was:", result_xlsx)
         writerobj = writer(f)
         columns = ['domain_name', 'primary_mail', 'secondary_mail', 'other_mail', 'social_media']
         writerobj.writerow(columns)

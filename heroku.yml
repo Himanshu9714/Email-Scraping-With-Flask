@@ -1,0 +1,8 @@
+build:
+  docker:
+    web: Dockerfile
+    worker: Dockerfile
+run:
+  web: gunicorn main:app --bind 0.0.0.0:5000
+  worker: celery -A main.celery worker --loglevel=info
+    

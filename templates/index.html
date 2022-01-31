@@ -126,7 +126,7 @@
           const taskStatus = res.data.task_status;
           console.log("Task status:", taskStatus)
           if (taskStatus === 'SUCCESS' || taskStatus === 'FAILED'){
-            var downloadlink = "uploads/result.xlsx"
+            var downloadlink = "/uploads/results.xlsx"
             $('#loading').hide();
             $('#download').show();
             $("#download").attr("href", downloadlink);

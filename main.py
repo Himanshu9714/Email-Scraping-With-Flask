@@ -6,27 +6,15 @@ import pandas as pd
 from web_scraping import scraping_emails
 import json
 import logging
-import redis
 from celery_utils import make_celery
-import db
-from db import get_db
 
 UPLOAD_FOLDER = 'static/uploads'
 ALLOWED_EXTENSIONS = {'xlsx'}
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 app.config['SECRET_KEY'] = '427c64d1e8e2d5c13bff0beeb588131a'
-app.config['CELERY_BROKER_URL'] = 'redis://localhost:6379/'
-app.config['CELERY_BACKEND'] = 'redis://localhost:6379/'
-app.config.from_mapping(
-        SECRET_KEY='dev',
-        DATABASE=os.path.join(app.instance_path, 'celerydb.sqlite'),)
-try:
-    os.makedirs(app.instance_path)
-except OSError:
-    pass
-
-db.init_app(app)
+app.config['CELERY_BROKER_URL'] = "redis://redis:6379/"
+app.config['CELERY_BACKEND'] = "redis://redis:6379/"
 celery = make_celery(app)
 
 logging.basicConfig(filename='record.log', level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
@@ -82,8 +70,6 @@ def upload_file():
 
 @app.route('/uploads/<name>')
 def download_file(name):
-    print("In the download directory")
-    print(app.config["UPLOAD_FOLDER"])
     return send_from_directory(app.config["UPLOAD_FOLDER"], name)
     
 app.add_url_rule(
